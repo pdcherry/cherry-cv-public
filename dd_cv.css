@@ -89,11 +89,11 @@ sup {
   font-size: 0.75rem;
 }
 
+/* nudge the blue point over to be centered with the timeline vline */
 /* Make little circle outline be a light blue */
 .decorator::after {
-  background-color: #08306b;
-  /* timeline circle is just barely not centered, which is sad */
   margin-left: -0.5px;
+  background-color: #08306b;
 }
 
 /* Remove the fake bullets from lists */

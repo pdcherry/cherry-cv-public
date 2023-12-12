@@ -6,8 +6,8 @@ position: "Senior Scientist | NGS | Twist Bioscience"
 address: "San Francisco, California"
 # profilepic:
 # www: 
-email: "pcherry [at] pm.me"
-#phone:
+email:
+phone:
 github: pdcherry
 linkedin: p-cherry
 orcid: 0000-0001-6421-2035
@@ -28,9 +28,14 @@ is_resume <- TRUE
 ```{r render html to pdf, echo = FALSE, eval = FALSE}
 # Knit, then run this command
 pagedown::chrome_print(input = "Patrick-Cherry-resume.html", output = paste0("Patrick Cherry resume ",
-                                                                        format(Sys.time(), '%B %Y'),
+                                                                        format(Sys.Date(), '%B %Y'),
                                                                         ".pdf"))
 ```
+<!-- Note to self: if the error shows up: -->
+<!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
+<!-- re-type the sptring to avoid non-ASCII characters -->
+<!-- see https://stackoverflow.com/questions/76680882/unable-to-translate-to-a-wide-string -->
+
 ```{r read in cv data, include = FALSE}
 knitr::opts_chunk$set(
   results='asis', 
