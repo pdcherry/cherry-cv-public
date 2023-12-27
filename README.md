@@ -38,7 +38,7 @@ December 2023
 
 ## Disclaimer
 
-Last updated on 2023-12-26.
+Last updated on 2023-12-27.
 
 Data-driven résumé made in R using pagedown.
 
@@ -46,14 +46,15 @@ Data-driven résumé made in R using pagedown.
 
 ## Patrick Cherry
 
-PhD scientist skilled in bioinformatics, biological data science,
-statistical modeling, next-generation sequencing (NGS), and
-tool-building. I’ve coded high-throughput experimental designs and
-genomic analyses, launched best-in-class oncology reference standards,
-and invented new molecular methods for DNA and microbe manipulation.
-Originally trained in Molecular Biology, I’m interested in taking my
-knowledge and practice of data science and bioinformatics to the next
-level.
+PhD scientist skilled in bioinformatics, biological data science, data
+visualization, statistical modeling, next-generation sequencing (NGS),
+and tool-building. I’ve coded reproducible and rigorous pipelines for
+high-throughput experimental designs and genomic analyses, launched
+best-in-class oncology reference standards, and invented new molecular
+methods for DNA and microbe manipulation. Originally trained in
+Molecular Biology, I’m interested in taking my knowledge and practice of
+data science / bioinformatics to the next level, especially on spatial
+and single cell data analysis.
 
 ## Education
 
@@ -104,26 +105,28 @@ South San Francisco, California
 
 Current - 2022
 
-- Tech Lead of multiple reference control NPIs, custom OEM projects, and
-  commercial release OEM. Includes the *Pan-cancer RNA Fusion Controls*,
-  *Fragmentome Calibration Standards*, *CNV Controls*, *Pan-cancer cfDNA
+- Tech Lead of multiple reference control NPIs, custom OEMs, and
+  commercial releases. Includes the *Pan-cancer RNA Fusion Controls*,
+  *Fragmentome Calibration Controls*, *CNV Controls*, *Pan-cancer cfDNA
   v2*, and RNA-seq.
 - Mentored a direct report from Senior Research Associate to Scientist
   to serving as a Tech Lead on new product introductions
 - Original research led to multiple outside presentations and
   applications for patent protection of product configuration and
   biochemical methods.
-- Custom analysis demonstrated proof-of-concept design and QC success of
-  the Pan-cancer RNA Fusion Controls; designed and implemented the
-  production approach; used public data and feedback from alpha testers
-  to design configuration of fusions RNAs
-- Led technical evaluation of a new NGS platform with custom experiments
-  and bioinformatic analyses to enable faster gene QC in Production.
-  Also led ancillary experiments to speed up production. Coded,
-  implemented, and distributed on company GitHub an internal package,
-  *`twistcolorpal`*, that automatically adds Twist-brand colors to
-  `ggplot2` plots and sets up database connectors to `SQL` / Snowflake
-  for parameterized `dbplyr` querying. Regularly use AWS `s3` and
+- Custom data analysis pipeline in R and Python demonstrated
+  proof-of-concept design and QC success of the Pan-cancer RNA Fusion
+  Controls; designed and implemented the production approach; used
+  public databases and feedback from alpha testers to design
+  configuration of fusions RNAs
+- Led new technology evaluation of a new NGS platform with custom
+  experiments and bioinformatic analyses in Python, R, and SQL to enable
+  faster gene QC in Production. Also led ancillary experiments to speed
+  up synthetic gene production. Coded, implemented, and distributed on
+  company GitHub an internal package, *`twistcolorpal`*, that
+  automatically adds Twist-brand colors to `ggplot2` plots and sets up
+  database connectors to `SQL` / Snowflake for parameterized `dbplyr`
+  querying. Regularly use R, tidyverse, Python, Polars, AWS `s3`,
   `Spark`, `PySpark`, and `Sparklyr`, locally and on Databricks.
 
 ### Scientist
@@ -140,13 +143,15 @@ Current - 2021
   2021
 - Designed, implemented, & validated primer removal procedure for DNA
   standards *that is compatible with methylation*
-- Devised precise high-throughput DNA quantification process for
-  accurate pooling
-- Multiple iterations of custom NGS analysis refined the QC approach and
-  thresholds for ensuring a contamination-free production process.
-- Made extensive use of UMI sequencing and novel method to precisely
-  quantify conversion efficiency to evaluate product and potential
-  secondary sources
+- Devised and validated precise high-throughput DNA quantification
+  process for accurate pooling
+- Led multiple iterations of custom NGS analysis refined the QC approach
+  and thresholds for ensuring a contamination-free production process;
+  extensively used data visualization to communicate complex data to
+  cross-functional collaboration teams.
+- Made extensive use of UMI sequencing and created novel method to
+  rigorously quantify library conversion efficiency to evaluate product
+  and potential secondary sources
 
 ### Scientist I
 
