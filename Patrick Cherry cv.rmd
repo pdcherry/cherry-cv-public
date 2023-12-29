@@ -22,15 +22,10 @@ output:
     css: ['dd_cv.css', 'resume']
     self_contained: true
 ---
-```{r resume setting, echo = FALSE}
+```{r resume setting, echo = FALSE, eval = TRUE}
 is_resume <- FALSE
 ```
-```{r render html to pdf, echo = FALSE, eval = FALSE}
-# Knit, then run this command
-pagedown::chrome_print(input = "Patrick-Cherry-cv.html", output = paste0("Patrick Cherry CV ",
-                                                                        format(Sys.time(), '%B %Y'),
-                                                                        ".pdf"))
-```
+
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
 <!-- re-type the sptring to avoid non-ASCII characters -->

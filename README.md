@@ -20,11 +20,13 @@ December 2023
 
 ## Contact
 
-- <i class='fa fa-envelope'></i> pcherry \[at\] pm.me
+- <i class='fa fa-envelope'></i> pcherry \[at\] pm \[dot\] me
 - <i class='fa fa-phone'></i> upon request
 - <i class='fa fa-suitcase'></i> Senior Scientist \| Genomics
 - <i class='fa fa-building'></i> Twist Bioscience
 - <i class='fa fa-map'></i> San Francisco, California
+- <i class='fa fa-globe'></i>
+  [pdcherry.github.io](https://pdcherry.github.io)
 - <i class='fa fa-github'></i>
   [github.com/pdcherry](https://github.com/pdcherry)
 - <i class='fa fa-linkedin'></i>
@@ -38,7 +40,7 @@ December 2023
 
 ## Disclaimer
 
-Last updated on 2023-12-27.
+Last updated on 2023-12-29.
 
 Data-driven résumé made in R using pagedown.
 
