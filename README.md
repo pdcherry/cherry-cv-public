@@ -1,7 +1,7 @@
 Patrick Cherry’s CV
 ================
 Patrick Cherry
-December 2023
+January 2024
 
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
@@ -40,7 +40,7 @@ December 2023
 
 ## Disclaimer
 
-Last updated on 2023-12-29.
+Last updated on 2024-01-03.
 
 Data-driven résumé made in R using pagedown.
 
@@ -130,6 +130,8 @@ Current - 2022
   database connectors to `SQL` / Snowflake for parameterized `dbplyr`
   querying. Regularly use R, tidyverse, Python, Polars, AWS `s3`,
   `Spark`, `PySpark`, and `Sparklyr`, locally and on Databricks.
+  Regularly implements and runs automated code tests with `pytest` and
+  `testthat`.
 
 ### Scientist
 
@@ -146,7 +148,9 @@ Current - 2021
 - Designed, implemented, & validated primer removal procedure for DNA
   standards *that is compatible with methylation*
 - Devised and validated precise high-throughput DNA quantification
-  process for accurate pooling
+  process for accurate pooling. On-boarded droplet digital PCR (ddPCR)
+  system into production; designed custom assays and evaluated
+  pre-designed assays for use in production.
 - Led multiple iterations of custom NGS analysis refined the QC approach
   and thresholds for ensuring a contamination-free production process;
   extensively used data visualization to communicate complex data to
