@@ -1,7 +1,7 @@
 Patrick Cherry’s CV
 ================
 Patrick Cherry
-January 2024
+March 2024
 
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
@@ -20,7 +20,7 @@ January 2024
 
 ## Contact
 
-- <i class='fa fa-envelope'></i> pcherry \[at\] pm \[dot\] me
+- <i class='fa fa-envelope'></i> pcherry \[at\] pm dot me
 - <i class='fa fa-phone'></i> upon request
 - <i class='fa fa-suitcase'></i> Senior Scientist \| Genomics
 - <i class='fa fa-building'></i> Twist Bioscience
@@ -31,6 +31,7 @@ January 2024
   [github.com/pdcherry](https://github.com/pdcherry)
 - <i class='fa fa-linkedin'></i>
   [linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
+- <i class='fa fa-id-card'></i> United States Citizen
 
 <!-- Language Skills {#skills} -->
 <!-- -------------------------------------------------------------------------------- -->
@@ -40,7 +41,7 @@ January 2024
 
 ## Disclaimer
 
-Last updated on 2024-01-03.
+Last updated on 2024-03-21.
 
 Data-driven résumé made in R using pagedown.
 
@@ -48,15 +49,15 @@ Data-driven résumé made in R using pagedown.
 
 ## Patrick Cherry
 
-PhD scientist skilled in bioinformatics, biological data science, data
-visualization, statistical modeling, next-generation sequencing (NGS),
-and tool-building. I’ve coded reproducible and rigorous pipelines for
-high-throughput experimental designs and genomic analyses, launched
+PhD scientist skilled in data visualization, statistical modeling,
+bioinformatics, biological data science, next-generation sequencing
+(NGS), and tool-building. I’ve coded reproducible and rigorous pipelines
+for high-throughput experimental designs and multi-omic analyses for
+communication to technical and non-technical audiences. I’ve launched
 best-in-class oncology reference standards, and invented new molecular
 methods for DNA and microbe manipulation. Originally trained in
-Molecular Biology, I’m interested in taking my knowledge and practice of
-data science / bioinformatics to the next level, especially on spatial
-and single cell data analysis.
+Molecular Biology,I am passionate about advancing data science and
+bioinformatics to improve human health and biotechnology.
 
 ## Education
 
@@ -107,20 +108,22 @@ South San Francisco, California
 
 Current - 2022
 
-- Tech Lead of multiple reference control NPIs, custom OEMs, and
-  commercial releases. Includes the *Pan-cancer RNA Fusion Controls*,
-  *Fragmentome Calibration Controls*, *CNV Controls*, *Pan-cancer cfDNA
-  v2*, and RNA-seq.
+- Tech Lead of multiple reference control NPIs and custom OEMs;
+  collaborated cross-functionally to launch quality products; includes
+  the *Pan-cancer RNA Fusion Controls*, *Fragmentome Calibration
+  Controls*, *CNV Controls*, *Pan-cancer cfDNA v2*, and RNA-seq.
 - Mentored a direct report from Senior Research Associate to Scientist
-  to serving as a Tech Lead on new product introductions
-- Original research led to multiple outside presentations and
-  applications for patent protection of product configuration and
-  biochemical methods.
-- Custom data analysis pipeline in R and Python demonstrated
-  proof-of-concept design and QC success of the Pan-cancer RNA Fusion
-  Controls; designed and implemented the production approach; used
+  to serving as a Tech Lead on new product introductions. Managed
+  research assistants to produce quality science on deadline.
+- Original research led to multiple outside presentations and patent
+  protection of product configuration and biochemical methods. Designed
+  and implemented high-throughput RNA synthesis and pooling.
+- Routinely craft custom data analysis pipelines in R and Python;
+  documented analyses using `Rmarkdown`, `Quarto`, and `Jupyter`;
+  maintain dockerized git / Github bioinformatic QC packages for
+  Pan-cancer cfDNA standard and the Pan-cancer RNA Fusion Controls; used
   public databases and feedback from alpha testers to design
-  configuration of fusions RNAs
+  configuration of multiple products.
 - Led new technology evaluation of a new NGS platform with custom
   experiments and bioinformatic analyses in Python, R, and SQL to enable
   faster gene QC in Production. Also led ancillary experiments to speed
@@ -143,21 +146,20 @@ Current - 2021
 
 - Tech Lead of *Pan-Cancer Reference Standard*, an ISO-13485 synthetic
   positive control with 458 unique variants among 84 cancer-associated
-  genes at six QC’d VAFs, plus a WT control, which launched in Nov of
-  2021
-- Designed, implemented, & validated primer removal procedure for DNA
-  standards *that is compatible with methylation*
+  genes at six QC’d VAFs, plus a WT control; launched in Nov of 2021.
+- Designed, implemented, & validated widely-used primer removal
+  procedure for DNA standards and more.
 - Devised and validated precise high-throughput DNA quantification
   process for accurate pooling. On-boarded droplet digital PCR (ddPCR)
-  system into production; designed custom assays and evaluated
-  pre-designed assays for use in production.
-- Led multiple iterations of custom NGS analysis refined the QC approach
-  and thresholds for ensuring a contamination-free production process;
-  extensively used data visualization to communicate complex data to
-  cross-functional collaboration teams.
+  system into production; designed and validated custom ddPCR assays for
+  use in production.
+- Led multiple iterations of custom NGS analysis; refined the QC
+  approach and thresholds for ensuring a contamination-free production
+  process; extensively used data visualization to communicate complex
+  data to cross-functional teams.
 - Made extensive use of UMI sequencing and created novel method to
-  rigorously quantify library conversion efficiency to evaluate product
-  and potential secondary sources
+  rigorously quantify library conversion efficiency to evaluate products
+  and reference materials
 
 ### Scientist I
 

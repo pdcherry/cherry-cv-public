@@ -8,6 +8,14 @@ body {
   color: #444;
 }
 
+/* Override default pagedown resume margins*/
+* {
+  --pagedjs-margin-right: 0.4in;
+  --pagedjs-margin-left: 0.4in;
+  --pagedjs-margin-top: 0.4in;
+  --pagedjs-margin-bottom: 0.4in
+}
+
 /* Give headers playfair font */
 h1,
 h2,
@@ -16,16 +24,26 @@ h3 {
   color: #000;
 }
 
+#title > p {
+  text-align: justify;
+}
+
 /* When in PDF export mode make sure superscripts are nice and small and italic */
 sup {
   font-size: 0.45rem;
   font-style: italic;
 }
 
+/* Manually avoid the breaking between section header and content */
+.break-after-me {
+  break-after: page;
+}
+
 /* Avoid the breaking within a section */
-/*.blocks {                     */
-/*  break-inside: avoid;        */
-/*}                             */
+.blocks {
+  break-inside: avoid;
+  page-break-inside: avoid-column;
+}        
 
 * {
   /* Override default right margin for sidebar*/
@@ -37,7 +55,7 @@ sup {
 /* Customize some of the sizing variables */
 :root {
   --sidebar-width: 12rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #f0fff0; /* Make sidebar blue */
+  --sidebar-background-color: #f0fff0; /* Make sidebar green */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
   --decorator-border: 2px solid #bde7f7; /* Make timeline a blue as well*/
@@ -109,7 +127,6 @@ sup {
   width: 100%;
 }
 
-
 /* When the class no-timeline is added we remove the after psuedo element from the header... */
 
 /* Removes the psuedo element on h2 tags for this section */
@@ -118,9 +135,9 @@ sup {
 }
 
 /* Without adding padding the content is all up on the title */
-.section.no-timeline h2 {
-  padding-bottom: 1rem;
-}
+/*.section.no-timeline h2 {
+/*  padding-bottom: 1rem;
+/*}
 
 /* Add styles for little cards  */
 .info-card{

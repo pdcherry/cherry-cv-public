@@ -1,6 +1,6 @@
 Id of contact section,Icon used from font-awesome 4 to label this contact section,The actual value written for the contact entry
 loc,icon,contact
-email,envelope,pcherry [at] pm [dot] me
+email,envelope,pcherry [at] pm dot me
 phone,phone,upon request
 position,suitcase,Senior Scientist | Genomics
 company,building,Twist Bioscience
@@ -8,3 +8,4 @@ location,map,"San Francisco, California"
 website,globe,[pdcherry.github.io](https://pdcherry.github.io)
 github,github,[github.com/pdcherry](https://github.com/pdcherry)
 linkedin,linkedin,[linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
+citizenship,id-card,United States Citizen

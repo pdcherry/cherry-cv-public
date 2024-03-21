@@ -1,0 +1,11 @@
+Id of contact section,Icon used from font-awesome 4 to label this contact section,The actual value written for the contact entry
+loc,icon,contact
+grad_school,graduation-cap,University of Colorado School of Medicine
+grad_prog,,Ph.D. in Molecular Biology
+grad_advisor,lightbulb-o,"Advisor: Jay Hesselberth, PhD."
+grad_thesis,book,Thesis: RNA Terminus chemistry affects the decay events that target HAC1 mRNA during the Unfolded Protein Response
+undergrad,graduation-cap,Hendrix College
+u_prog,,"Biochemistry and Molecular Biology, with Distinction"
+u_advisor,lightbulb-o,"Advisor: Andres Caro, PhD."
+u_thesis,book,Senior Capstone Project showing key stress response gene expression changes to oxidative stress in liver cells
+minor,pencil,Minor in Mathematics; PI: Lars Seme; Project: Newton's method as a fractal chaotic dynamical system
