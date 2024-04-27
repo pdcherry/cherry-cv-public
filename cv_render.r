@@ -6,18 +6,18 @@
 # for the HTML and PDF rendering.
 
 # Resume
-## Knit the HTML version
+## Knit the markdown (github) version
+rmarkdown::render("Patrick Cherry resume.rmd",
+                  c("github_document"),
+                  output_file = "README.md"); fs::file_delete("README.html")
+
 # rmarkdown::render("Patrick Cherry resume.rmd",
 #                   params = list(pdf_mode = FALSE),
 #                   output_file = "Patrick-Cherry-resume.html")
 
 ### rename md output to README for github display
 # fs::file_move(path = "Patrick-Cherry-resume.md", new_path = "README.md")
-rmarkdown::render("Patrick Cherry resume.rmd",
-                  c("github_document"),
-                  output_file = "README.md")
 
-fs::file_delete("README.html")
 
 ## Convert to PDF using Pagedown
 pagedown::chrome_print(input = "Patrick-Cherry-resume.html",
