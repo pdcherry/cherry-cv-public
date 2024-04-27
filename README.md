@@ -1,15 +1,22 @@
-Patrick Cherry’s CV
+Patrick Cherry’s Resume
 ================
 Patrick Cherry
-March 2024
+April 2024
 
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
 <!-- re-type the sptring to avoid non-ASCII characters -->
 <!-- see https://stackoverflow.com/questions/76680882/unable-to-translate-to-a-wide-string -->
 
-# Aside
+<div class="aside">
 
+<!-- Aside -->
+<!-- ================================================================================ -->
+<!-- ```{r network graph} -->
+<!-- # Build interactive network of positions colored by section -->
+<!-- # and connected if they occurred in the same year -->
+<!-- #datadrivencv::build_network_logo(CV$entries_data) -->
+<!-- ``` -->
 <!-- ```{r} -->
 <!-- if(params$pdf_mode){ -->
 <!--   cat("View this CV online with links at __") -->
@@ -20,10 +27,10 @@ March 2024
 
 ## Contact
 
-- <i class='fa fa-envelope'></i> pcherry \[at\] pm dot me
+- <i class='fa fa-envelope'></i> pcherry \[at\] pm \[dot\] me
 - <i class='fa fa-phone'></i> upon request
 - <i class='fa fa-suitcase'></i> Senior Scientist \| Genomics
-- <i class='fa fa-building'></i> Twist Bioscience
+- <i class='fa fa-building'></i>  
 - <i class='fa fa-map'></i> San Francisco, California
 - <i class='fa fa-globe'></i>
   [pdcherry.github.io](https://pdcherry.github.io)
@@ -32,18 +39,20 @@ March 2024
 - <i class='fa fa-linkedin'></i>
   [linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
 - <i class='fa fa-id-card'></i> United States Citizen
+  <!-- Language Skills {#skills} -->
+  <!-- -------------------------------------------------------------------------------- -->
 
-<!-- Language Skills {#skills} -->
-<!-- -------------------------------------------------------------------------------- -->
 <!-- ```{r skills graph} -->
 <!-- CV %>% print_skill_bars() -->
 <!-- ``` -->
 
 ## Disclaimer
 
-Last updated on 2024-03-21.
+Last updated on 2024-03-27. <!-- Last updated on 2024-04-26. -->
 
 Data-driven résumé made in R using pagedown.
+
+</div>
 
 # Main
 
@@ -56,8 +65,8 @@ for high-throughput experimental designs and multi-omic analyses for
 communication to technical and non-technical audiences. I’ve launched
 best-in-class oncology reference standards, and invented new molecular
 methods for DNA and microbe manipulation. Originally trained in
-Molecular Biology,I am passionate about advancing data science and
-bioinformatics to improve human health and biotechnology.
+Molecular Biology, I am passionate about advancing data science and
+bioinformatics to improve human health.
 
 ## Education
 
@@ -72,7 +81,7 @@ Aurora/Denver, Colorado
 - Ph.D. in Molecular Biology
 - Advisor: Jay Hesselberth, PhD.
 - Thesis: RNA Terminus chemistry affects the decay events that target
-  HAC1 mRNA during the Unfolded Protein Response
+  *HAC1* mRNA during the Unfolded Protein Response
 
 ### BA
 
@@ -83,9 +92,8 @@ Conway, Arkansas
 2013 - 2009
 
 - Biochemistry and Molecular Biology, with Distinction
-- Advisor: Andres Caro, PhD.
-- Senior Capstone Project showing key stress response gene expression
-  changes to oxidative stress in liver cells
+- Advisor: Andres Caro, PhD. Senior Capstone Project showing key stress
+  response gene expression changes to oxidative stress in liver cells
 - Minor in Mathematics; PI: Lars Seme; Project: Newton’s method as a
   fractal chaotic dynamical system
 
@@ -100,7 +108,7 @@ learn from my peers and in turn teach others.
 
 </div>
 
-### Senior Scientist
+### Senior Scientist, Genomics
 
 Twist Bioscience
 
@@ -108,35 +116,36 @@ South San Francisco, California
 
 Current - 2022
 
-- Tech Lead of multiple reference control NPIs and custom OEMs;
-  collaborated cross-functionally to launch quality products; includes
-  the *Pan-cancer RNA Fusion Controls*, *Fragmentome Calibration
-  Controls*, *CNV Controls*, *Pan-cancer cfDNA v2*, and RNA-seq.
-- Mentored a direct report from Senior Research Associate to Scientist
-  to serving as a Tech Lead on new product introductions. Managed
-  research assistants to produce quality science on deadline.
-- Original research led to multiple outside presentations and patent
-  protection of product configuration and biochemical methods. Designed
-  and implemented high-throughput RNA synthesis and pooling.
-- Routinely craft custom data analysis pipelines in R and Python;
-  documented analyses using `Rmarkdown`, `Quarto`, and `Jupyter`;
-  maintain dockerized git / Github bioinformatic QC packages for
-  Pan-cancer cfDNA standard and the Pan-cancer RNA Fusion Controls; used
-  public databases and feedback from alpha testers to design
-  configuration of multiple products.
-- Led new technology evaluation of a new NGS platform with custom
-  experiments and bioinformatic analyses in Python, R, and SQL to enable
-  faster gene QC in Production. Also led ancillary experiments to speed
-  up synthetic gene production. Coded, implemented, and distributed on
-  company GitHub an internal package, *`twistcolorpal`*, that
-  automatically adds Twist-brand colors to `ggplot2` plots and sets up
-  database connectors to `SQL` / Snowflake for parameterized `dbplyr`
+- Tech Lead of multiple NPIs and custom OEMs; invented and launched
+  products to yield millions of dollars in new revenue, including:
+  *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*,
+  *Fragmentome Controls*, and RNA-seq
+- Built positive team culture; mentored and promoted a report from
+  Senior Research Associate to Scientist; coached reports who served as
+  Tech Leads on new product introductions, increasing revenue. Delivered
+  quality science on deadline by managing research assistants
+- Original research and presentations unveiled novel products and
+  underwrote multiple patents for product configuration and biochemical
+  approaches. Gained new customers in RNA standards space with the
+  design and implementation of high-throughput RNA synthesis and pooling
+- Analyzed public databases and feedback from alpha testers to optimize
+  design of multiple products; routinely craft custom data analysis
+  pipelines in R and Python; documented analyses using `Rmarkdown`,
+  `Quarto`, and `Jupyter`; maintain git repo of dockerized bioinformatic
+  QC packages for Pan-cancer cfDNA product line
+- Generated actionable data for new technology evaluations of a new NGS
+  platform with custom experiments and bioinformatic analyses in Python,
+  R, and SQL to enable faster gene QC in Production. Launched a
+  time-saving gene synthesis change into production, supported by
+  original experimental data. Boosted colleagues in publication-ready
+  plots by coding and distributing on company GitHub the internal
+  package *`twistcolorpal`*, which automatically styles plots and sets
+  up database connectors to `SQL` / Snowflake for parameterized `dbplyr`
   querying. Regularly use R, tidyverse, Python, Polars, AWS `s3`,
   `Spark`, `PySpark`, and `Sparklyr`, locally and on Databricks.
-  Regularly implements and runs automated code tests with `pytest` and
-  `testthat`.
+  Regularly implements and runs automated code tests
 
-### Scientist
+### Scientist, Genomics
 
 Twist Bioscience
 
@@ -146,22 +155,23 @@ Current - 2021
 
 - Tech Lead of *Pan-Cancer Reference Standard*, an ISO-13485 synthetic
   positive control with 458 unique variants among 84 cancer-associated
-  genes at six QC’d VAFs, plus a WT control; launched in Nov of 2021.
-- Designed, implemented, & validated widely-used primer removal
-  procedure for DNA standards and more.
+  genes at six QC’d VAFs, plus a WT control; launched in Nov of 2021
+- Invented, validated, and deployed to production multiple widely-used
+  primer removal methods for DNA standards and high-complexity synthetic
+  dsDNA pools
 - Devised and validated precise high-throughput DNA quantification
   process for accurate pooling. On-boarded droplet digital PCR (ddPCR)
   system into production; designed and validated custom ddPCR assays for
-  use in production.
+  use in production
 - Led multiple iterations of custom NGS analysis; refined the QC
   approach and thresholds for ensuring a contamination-free production
   process; extensively used data visualization to communicate complex
-  data to cross-functional teams.
+  data to cross-functional teams
 - Made extensive use of UMI sequencing and created novel method to
   rigorously quantify library conversion efficiency to evaluate products
   and reference materials
 
-### Scientist I
+### Scientist I, NGS & NPI-Build
 
 Zymergen, Inc.
 
@@ -169,24 +179,29 @@ Emeryville, California
 
 2021 - 2019
 
-- Designed and implemented an automated high-throughput genotyping assay
-- Designed & carried out complex experiments on automation with and
-  without LIMS sample tracking
-- Supported a company-wide NGS core under high demand from diverse
-  groups with complex needs using data-driven decision making and
-  teaching
-- Used statistical methods to screen and optimize a genetic engineering
-  protocol for newly-on-boarded microbe; delivered robust process while
-  working on New Product Introduction team
-- Built hundreds of plasmids using modern molecular cloning techniques
-  like Gibson and Golden Gate
+- Achieved a 95% success rate for obtaining a genetic edit by designing
+  and implementing multiple automated high-throughput methods for a
+  non-model microbe: transformation, counterselection, and NGS
+  genotyping
+- Determined best methods for genetic manipulation, propagation, and
+  archiving of a non-model microbe through design & execution of complex
+  experiments on lab automation with and without LIMS sample tracking
+- Boosted NGS core genotyping success by 45% using data-driven decision
+  making and teaching; guided demanding and diverse internal customers
+  on complex NGS experiments
+- Applied statistical methods to screen and optimize a genetic
+  engineering protocol for newly-on-boarded microbe; delivered robust
+  process while working on New Product Introduction team
+- Delivered on microbe improvement KPIs by designing and building
+  hundreds of plasmids using modern molecular techniques like Gibson and
+  Golden Gate
 
 ## Research Experience
 
 <div class="aside">
 
 I worked on a few projects during my PhD, and the RNA repair project led
-me to custom 5´-OH RNA-seq libraries, which inspired my fascination with
+me to custom 5’-OH RNA-seq libraries, which inspired my fascination with
 transcriptomics and bioinformatics.
 
 </div>
@@ -276,7 +291,7 @@ required more tech notes and app notes recently.
 ### Twist Pan-cancer synthetic reference materials technical guide
 
 [Twist
-Bioscience](https://www.twistbioscience.com/resources/guideguideline/twist-cfdna-pan-cancer-reference-standard-technical-guide)
+Bioscience](https://www.twistbioscience.com/resources/guide/twist-cfdna-pan-cancer-reference-standard-technical-guide)
 
 South San Francisco, California
 
@@ -315,13 +330,13 @@ documentation.
 
 </div>
 
-### High sensitivity detection of specific ultra low-frequency somatic mutations for minimal residual disease (MRD) monitoring
+### Twist pan-cancer reference standard V2: Enhanced precision and reduced errors in ctDNA analysis
 
-International Society of Liquid Biopsy Annual Congress
+Advances in Genome Biology and Technology
 
-Madrid, Spain
+Orlando, Florida
 
-11/19/23
+2/6/24
 
 ### Twist pan-cancer synthetic RNA fusion control for assay development
 

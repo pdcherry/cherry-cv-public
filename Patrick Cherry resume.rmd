@@ -1,18 +1,17 @@
 ---
-title: "Patrick Cherry's CV"
+title: "Patrick Cherry's Resume"
 author: Patrick Cherry
 date: "`r format(Sys.time(), '%B %Y')`"
 position: "Senior Scientist | NGS | Twist Bioscience"
 address: "San Francisco, California"
 # profilepic:
-# www: 
-email:
-phone:
+www: "https://pdcherry.github.io"
+email: "pcherry <at> pm <dot> me"
+phone: "upon request"
 github: pdcherry
 linkedin: p-cherry
-orcid: 0000-0001-6421-2035
-googlescholar: TVHw14oAAAAJ
-aboutme: "PhD scientist skilled in molecular biology, next-generation sequencing (NGS), and tool-building. I've launched best-in-class oncology reference standards, invented new molecular methods for DNA and microbe manipulation, and coded high-thourghput sample logistics and genomic analyses. I'm interested in taking my knowledge and practice of genomics and bioinformatics to the next level."
+orcid: "0000-0001-6421-2035"
+googlescholar: "TVHw14oAAAAJ"
 headcolor: 414141
 params:
   pdf_mode:
@@ -22,28 +21,29 @@ output:
     css: ['dd_cv.css', 'resume']
     self_contained: true
 ---
-```{r resume setting, eval = TRUE, echo = FALSE}
+```{r resume setting, echo = FALSE}
 is_resume <- TRUE
+resume_type_setting <- "bfx"
+# options are wetlab or bfx
 ```
-
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
 <!-- re-type the sptring to avoid non-ASCII characters -->
 <!-- see https://stackoverflow.com/questions/76680882/unable-to-translate-to-a-wide-string -->
-
-```{r read in cv data, include = FALSE}
+```{r read in and filter cv data, include = FALSE}
 knitr::opts_chunk$set(
-  results='asis', 
+  results = 'asis', 
   echo = FALSE
 )
 
 library(magrittr) # For the pipe
+library(readr)    # for independent read_csv()
 library(dplyr)    # for filter()
 source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "CV_data/",  
+  data_location = "~/cherry-cv/CV_data/",
   pdf_mode = params$pdf_mode
 )
 
@@ -55,9 +55,21 @@ if (is_resume == TRUE){
   CV$entries_data <- CV$entries_data %>%
     mutate("description_bullets" = if_else(section == "presentations", "", description_bullets))
 }
-
 ```
+```{r filter entries based on bfx or wetlab}
+CV$entries_data <- filter(CV$entries_data, resume_type == resume_type_setting | resume_type == "N/A" )
+CV$text_blocks <- filter(CV$text_blocks, resume_type == resume_type_setting | is.na(resume_type) )
+```
+```{r replace data for public dissemination}
+replace_lookup_tbl <- read_csv("~/cherry-cv/CV_data/info_replace_public.csv",
+                               trim_ws = FALSE,
+                               show_col_types = FALSE)
 
+CV$contact_info %<>%
+  left_join(replace_lookup_tbl, by = "loc") %>%
+  mutate("contact" = if_else(!is.na(contact_public), contact_public, contact)) %>%
+  select(!contact_public)
+```
 ```{r}
 # When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
 if(params$pdf_mode) {
@@ -70,15 +82,14 @@ if(params$pdf_mode) {
 }
 ```
 
-Aside
-================================================================================
-
-```{r network graph}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-#datadrivencv::build_network_logo(CV$entries_data)
-```
-
+::: aside
+<!-- Aside -->
+<!-- ================================================================================ -->
+<!-- ```{r network graph} -->
+<!-- # Build interactive network of positions colored by section -->
+<!-- # and connected if they occurred in the same year -->
+<!-- #datadrivencv::build_network_logo(CV$entries_data) -->
+<!-- ``` -->
 <!-- ```{r} -->
 <!-- if(params$pdf_mode){ -->
 <!--   cat("View this CV online with links at __") -->
@@ -89,26 +100,23 @@ Aside
 
 Contact {#contact}
 --------------------------------------------------------------------------------
-
 ```{r display contact info}
 CV %>% print_contact_info()
 ```
-
-
 <!-- Language Skills {#skills} -->
 <!-- -------------------------------------------------------------------------------- -->
 
 <!-- ```{r skills graph} -->
 <!-- CV %>% print_skill_bars() -->
 <!-- ``` -->
-
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
-
-Last updated on `r Sys.Date()`.
+Last updated on 2024-03-27.
+<!-- Last updated on `r Sys.Date()`. -->
 
 Data-driven résumé made in R using pagedown.
+
+:::
 
 Main
 ================================================================================
@@ -121,51 +129,42 @@ CV %<>% print_text_block('intro')
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
-
 ```{r education data}
 CV %<>% print_section('education')
 ```
 
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
-
 ::: aside
 ```{r industy experience aside}
 CV %<>% print_text_block('industy_experience_aside')
 ```
 :::
-
 ```{r industry_ positions data}
 CV %<>% print_section('industry_positions')
 ```
 
-
 Research Experience {data-icon=flask}
 --------------------------------------------------------------------------------
-
 ::: aside
 ```{r research experience aside}
 CV %<>% print_text_block('research_experience_aside')
 ```
 :::
-
 ```{r research experience data}
 CV %<>% print_section('research_experience')
 ```
 
 Intellectual Property {data-icon=lightbulb}
 --------------------------------------------------------------------------------
-
 ::: aside
 ```{r intellectual property aside}
 CV %<>% print_text_block('intellectual_property_aside')
 ```
 :::
-
 ```{r intellectual property data}
 CV %<>% print_section('intellectual_property')
 ```
-
 
 Selected Publications {data-icon=book}
 --------------------------------------------------------------------------------
@@ -179,33 +178,27 @@ CV %<>% print_text_block('selected_publications_aside')
 CV %<>% print_section('academic_articles')
 ```
 
-
 Selected Presentations & Talks {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
-
 ::: aside
 ```{r presentations aside}
 CV %<>% print_text_block('presentations_aside')
 ```
 :::
-
 ```{r presentations data}
 CV %<>% print_section('presentations')
 ```
 
 <!-- Trainees & Direct Reports {data-icon=leaf} -->
 <!-- -------------------------------------------------------------------------------- -->
-
 <!-- ::: aside -->
 <!-- ```{r} -->
 <!-- CV %<>% print_text_block('trainees_reports_aside') -->
 <!-- ``` -->
 <!-- ::: -->
-
 <!-- ```{r} -->
 <!-- CV %<>% print_section('trainees_reports') -->
 <!-- ``` -->
-
 <!-- ```{r} -->
 <!-- CV %<>% print_links() -->
 <!-- ``` -->

@@ -24,6 +24,8 @@ output:
 ---
 ```{r resume setting, echo = FALSE, eval = TRUE}
 is_resume <- FALSE
+resume_type_setting <- "bfx"
+# options are wetlab or bfx
 ```
 
 <!-- Note to self: if the error shows up: -->
@@ -38,12 +40,13 @@ knitr::opts_chunk$set(
 )
 
 library(magrittr) # For the pipe
+library(readr)    # for independent read_csv()
 library(dplyr)    # for filter()
 source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "CV_data/",  
+  data_location = "~/cherry-cv/CV_data/",
   pdf_mode = params$pdf_mode
 )
 
@@ -57,7 +60,18 @@ if (is_resume == TRUE){
 }
 
 ```
+```{r filter entries based on bfx or wetlab}
+CV$entries_data <- filter(CV$entries_data, resume_type == resume_type_setting | resume_type == "N/A" )
+CV$text_blocks <- filter(CV$text_blocks, resume_type == resume_type_setting | is.na(resume_type) )
+```
+```{r replace data for public dissemination}
+replace_lookup_tbl <- read_csv("CV_data/info_replace_public.csv", show_col_types = FALSE)
 
+CV$contact_info %<>%
+  left_join(replace_lookup_tbl, by = c("loc", "contact" = "contact_private")) %>%
+  mutate("contact" = if_else(!is.na(contact_public), contact_public, contact)) %>%
+  select(!contact_public)
+```
 ```{r}
 # When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
 if(params$pdf_mode) {
@@ -70,8 +84,9 @@ if(params$pdf_mode) {
 }
 ```
 
-Aside
-================================================================================
+::: aside
+<!-- Aside -->
+<!-- ================================================================================ -->
 
 ```{r network graph}
 # Build interactive network of positions colored by section
@@ -109,6 +124,8 @@ Disclaimer {#disclaimer}
 Last updated on `r Sys.Date()`.
 
 Data-driven CV made in R using pagedown.
+
+::: aside
 
 Main
 ================================================================================
