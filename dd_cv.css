@@ -58,7 +58,7 @@ sup {
   --sidebar-background-color: #f0fff0; /* Make sidebar green */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
-  --decorator-border: 2px solid #bde7f7; /* Make timeline a blue as well*/
+  --decorator-border: 2px solid #66cf9f; /* Make timeline a blue as well*/
 }
 
 .details .place {

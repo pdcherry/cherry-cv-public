@@ -1,7 +1,7 @@
 Patrick Cherry’s Resume
 ================
 Patrick Cherry
-April 2024
+May 2024
 
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
@@ -48,7 +48,7 @@ April 2024
 
 ## Disclaimer
 
-Last updated on 2024-03-27. <!-- Last updated on 2024-04-26. -->
+Last updated on 2024-03-27. <!-- Last updated on 2024-05-03. -->
 
 Data-driven résumé made in R using pagedown.
 
@@ -59,14 +59,14 @@ Data-driven résumé made in R using pagedown.
 ## Patrick Cherry
 
 PhD scientist skilled in data visualization, statistical modeling,
-bioinformatics, biological data science, next-generation sequencing
-(NGS), and tool-building. I’ve coded reproducible and rigorous pipelines
-for high-throughput experimental designs and multi-omic analyses for
-communication to technical and non-technical audiences. I’ve launched
-best-in-class oncology reference standards, and invented new molecular
-methods for DNA and microbe manipulation. Originally trained in
-Molecular Biology, I am passionate about advancing data science and
-bioinformatics to improve human health.
+bioinformatics, next-generation sequencing (NGS), and tool-building.
+I’ve coded reproducible and rigorous pipelines for high-throughput
+experimental designs and multi-omic analyses for communication to
+technical and non-technical audiences. I’ve launched best-in-class
+oncology reference standards, and invented new molecular methods for DNA
+and microbe manipulation. Originally trained in Molecular Biology, I am
+passionate about advancing data science and bioinformatics to improve
+human health.
 
 ## Education
 
@@ -116,34 +116,37 @@ South San Francisco, California
 
 Current - 2022
 
-- Tech Lead of multiple NPIs and custom OEMs; invented and launched
-  products to yield millions of dollars in new revenue, including:
+- Invented and introduced multiple new products to market yielding
+  millions of dollars in new revenue as *Tech Lead*, including:
   *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*,
   *Fragmentome Controls*, and RNA-seq
 - Built positive team culture; mentored and promoted a report from
-  Senior Research Associate to Scientist; coached reports who served as
-  Tech Leads on new product introductions, increasing revenue. Delivered
-  quality science on deadline by managing research assistants
-- Original research and presentations unveiled novel products and
-  underwrote multiple patents for product configuration and biochemical
-  approaches. Gained new customers in RNA standards space with the
-  design and implementation of high-throughput RNA synthesis and pooling
-- Analyzed public databases and feedback from alpha testers to optimize
-  design of multiple products; routinely craft custom data analysis
-  pipelines in R and Python; documented analyses using `Rmarkdown`,
-  `Quarto`, and `Jupyter`; maintain git repo of dockerized bioinformatic
-  QC packages for Pan-cancer cfDNA product line
+  Senior Research Associate to Scientist; Coached reports who served as
+  Tech Leads; Delivered quality science on deadline by managing research
+  assistants; Guided cross-functional teams through product launch and
+  beyond
+- Original research and presentations to non-experts and outside
+  stakeholders unveiled novel products and underwrote multiple patents;
+  Gained new customers in RNA standards space with the design and launch
+  of HTP RNA synthesis
+- Analyzed public databases and alpha feedback to optimize design of
+  multiple products; Routinely crafted custom NGS data analysis
+  pipelines in R, Python, and UNIX command line / shell tools;
+  documented analyses using `Rmarkdown`, `Quarto`, and `Jupyter`;
+  Maintained git / *Github* repo of *Dockerized* bioinformatic QC
+  packages for *Pan-cancer cfDNA* product line; Communicated results to
+  technical audience using high-performance compute environments on
+  *Databricks*, `aws`, and *Snowflake* SQL
 - Generated actionable data for new technology evaluations of a new NGS
-  platform with custom experiments and bioinformatic analyses in Python,
-  R, and SQL to enable faster gene QC in Production. Launched a
-  time-saving gene synthesis change into production, supported by
-  original experimental data. Boosted colleagues in publication-ready
-  plots by coding and distributing on company GitHub the internal
-  package *`twistcolorpal`*, which automatically styles plots and sets
-  up database connectors to `SQL` / Snowflake for parameterized `dbplyr`
-  querying. Regularly use R, tidyverse, Python, Polars, AWS `s3`,
-  `Spark`, `PySpark`, and `Sparklyr`, locally and on Databricks.
-  Regularly implements and runs automated code tests
+  platform (*MGI / Complete Genomics*, *Element*, *Illumina*), with to
+  enable faster gene QC; Launched a time-saving gene synthesis change,
+  supported by original experimental data; Boosted colleagues with
+  publication-ready data viz. by coding and distributing the internal
+  package *`twistcolorpal`* (sets up database connectors to `SQL` /
+  Snowflake for parameterized `dbplyr` querying); Regularly use R,
+  tidyverse, Python, Polars, AWS `s3`, `Spark`/`PySpark`, and
+  `Sparklyr`, locally and on *Databricks*; Regularly implements and runs
+  automated code tests; Practices good data hygiene
 
 ### Scientist, Genomics
 
@@ -153,21 +156,22 @@ South San Francisco, California
 
 Current - 2021
 
-- Tech Lead of *Pan-Cancer Reference Standard*, an ISO-13485 synthetic
-  positive control with 458 unique variants among 84 cancer-associated
-  genes at six QC’d VAFs, plus a WT control; launched in Nov of 2021
+- As Tech Lead, launched the Twist *Pan-Cancer Reference Standard*, an
+  ISO-13485 synthetic positive control with 458 unique variants among 84
+  cancer-associated genes at six QC’d VAFs, plus a WT control; Launched
+  in Nov of 2021, and earned \$1 million in new revenue in first year
 - Invented, validated, and deployed to production multiple widely-used
   primer removal methods for DNA standards and high-complexity synthetic
   dsDNA pools
 - Devised and validated precise high-throughput DNA quantification
-  process for accurate pooling. On-boarded droplet digital PCR (ddPCR)
-  system into production; designed and validated custom ddPCR assays for
+  process for accurate pooling; On-boarded droplet digital PCR (ddPCR)
+  system into production; Designed and validated custom ddPCR assays for
   use in production
 - Led multiple iterations of custom NGS analysis; refined the QC
   approach and thresholds for ensuring a contamination-free production
   process; extensively used data visualization to communicate complex
-  data to cross-functional teams
-- Made extensive use of UMI sequencing and created novel method to
+  data to cross-functional teams and non-experts
+- Made extensive use of UMI sequencing and invented novel method to
   rigorously quantify library conversion efficiency to evaluate products
   and reference materials
 
@@ -179,22 +183,23 @@ Emeryville, California
 
 2021 - 2019
 
-- Achieved a 95% success rate for obtaining a genetic edit by designing
+- Achieved a 95% success rate for obtaining genetic edits by designing
   and implementing multiple automated high-throughput methods for a
   non-model microbe: transformation, counterselection, and NGS
   genotyping
 - Determined best methods for genetic manipulation, propagation, and
   archiving of a non-model microbe through design & execution of complex
-  experiments on lab automation with and without LIMS sample tracking
-- Boosted NGS core genotyping success by 45% using data-driven decision
-  making and teaching; guided demanding and diverse internal customers
-  on complex NGS experiments
+  experiments (DoE) on lab automation, with and without LIMS sample
+  tracking
+- Boosted *NGS Core* genotyping success by 45% using data-driven
+  decision-making and teaching; Guided demanding and diverse internal
+  customers on complex NGS experiments
 - Applied statistical methods to screen and optimize a genetic
   engineering protocol for newly-on-boarded microbe; delivered robust
   process while working on New Product Introduction team
-- Delivered on microbe improvement KPIs by designing and building
-  hundreds of plasmids using modern molecular techniques like Gibson and
-  Golden Gate
+- Delivered on KPIs for microbe improvement by designing and building
+  hundreds of plasmids using modern molecular techniques like *Gibson*
+  and *Golden Gate*
 
 ## Research Experience
 
@@ -216,11 +221,12 @@ Aurora/Denver, Colorado
 
 - Wrote, revised, & published two academic papers on RNA repair & yeast
   genetics
-- Engineered and characterized genetic bypass of essential genes in
-  budding yeast; on-boarded CRISPR/Cas9 for efficient and precise gene
-  knock-in
-- Expressed, purified, and used wild-type and mutant recombinant protein
-  in *E. coli* to carry out an RNA modification enzymatic assay
+- Engineered and characterized *genetic bypass of essential genes* in
+  budding yeast; on-boarded CRISPR/*Cas9* for efficient and precise gene
+  knock-in and scarless knock-out
+- Cultured large batches of wild-type and mutant *E. coli* to expressed
+  and purified recombinant proteins, which enabled carrying out RNA
+  library prep and RNA modification enzymatic assays
 - Optimized custom RNA-seq library protocol; independently planned,
   executed, troubleshooted RNA modification detection
 - Routinely conducted northern blotting, targeted depletion, primer
