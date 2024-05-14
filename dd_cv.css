@@ -8,6 +8,11 @@ body {
   color: #444;
 }
 
+/* Disclaimer slash update date text is lighter*/
+.disclaimer {
+  color: #999;
+}
+
 /* Override default pagedown resume margins*/
 * {
   --pagedjs-margin-right: 0.4in;

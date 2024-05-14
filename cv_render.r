@@ -8,11 +8,16 @@
 # Resume
 ## Knit the markdown (github) version
 rmarkdown::render("Patrick Cherry resume.rmd",
+                  params = list(is_resume = TRUE,
+                                resume_type_param = "bfx",
+                                pdf_mode = FALSE),
                   c("github_document"),
                   output_file = "README.md"); fs::file_delete("README.html")
 
 rmarkdown::render("Patrick Cherry resume.rmd",
-                  params = list(pdf_mode = FALSE),
+                  params = list(is_resume = TRUE,
+                                resume_type_param = "bfx",
+                                pdf_mode = FALSE),
                   output_file = "Patrick-Cherry-resume.html")
 
 ### rename md output to README for github display

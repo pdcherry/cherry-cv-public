@@ -45,12 +45,16 @@ May 2024
 <!-- ```{r skills graph} -->
 <!-- CV %>% print_skill_bars() -->
 <!-- ``` -->
+<!-- Disclaimer {#disclaimer} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-## Disclaimer
+<div class="disclaimer">
 
-Last updated on 2024-03-27. <!-- Last updated on 2024-05-03. -->
+Last updated on 2024-05-14.
 
 Data-driven résumé made in R using pagedown.
+
+</div>
 
 </div>
 

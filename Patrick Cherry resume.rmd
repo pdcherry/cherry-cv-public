@@ -15,15 +15,25 @@ googlescholar: "TVHw14oAAAAJ"
 headcolor: 414141
 params:
   pdf_mode:
-    value: false
+    value: FALSE
+  resume_type_param: "bfx"
+  is_resume: TRUE
 output:
   pagedown::html_resume:
     css: ['dd_cv.css', 'resume']
-    self_contained: true
+    self_contained: TRUE
+  pdf_document: 
+    toc: no
+    latex_engine: xelatex
+    keep_tex: TRUE
+  word_document: 
+    toc: no   
 ---
 ```{r resume setting, echo = FALSE}
-is_resume <- TRUE
-resume_type_setting <- "bfx"
+is_resume <- params$is_resume
+#is_resume <- TRUE
+resume_type_setting <- params$resume_type_param
+#resume_type_setting <- "bfx"
 # options are wetlab or bfx
 ```
 <!-- Note to self: if the error shows up: -->
@@ -82,7 +92,7 @@ if(params$pdf_mode) {
 }
 ```
 
-::: aside
+:::: aside
 <!-- Aside -->
 <!-- ================================================================================ -->
 <!-- ```{r network graph} -->
@@ -109,14 +119,16 @@ CV %>% print_contact_info()
 <!-- ```{r skills graph} -->
 <!-- CV %>% print_skill_bars() -->
 <!-- ``` -->
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-Last updated on 2024-03-27.
-<!-- Last updated on `r Sys.Date()`. -->
+<!-- Disclaimer {#disclaimer} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+::: {.disclaimer}
+Last updated on `r Sys.Date()`.
 
 Data-driven résumé made in R using pagedown.
-
 :::
+
+::::
 
 Main
 ================================================================================
