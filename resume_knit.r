@@ -10,7 +10,7 @@
 # Resume
 ## bfx resume
 ### Knit the HTML version
-rmarkdown::render("Patrick Cherry brief resume.rmd",
+rmarkdown::render("Patrick-Cherry-brief-resume.rmd",
                   params = list(is_resume = TRUE,
                                 output_format = "pagedown",
                                 resume_type_param = "bfx",

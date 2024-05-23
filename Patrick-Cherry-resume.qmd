@@ -20,19 +20,12 @@ format:
     toc: true
     toc-expand: 2
     toc-depth: 2
-  pdf:
-    filters: [remove_extras.lua]
-    include-in-header: 
-      text: |
-        \usepackage{fontawesome5}
-    pdf-engine: xelatex
-    documentclass: scrartcl
-    mainfont: Helvetica Neue
-  gfm:
-    preview-mode: raw
 css: cynthia_cv.css
-format-links: [pdf]
+execute:
+  freeze: true
 ---
+
+[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf).
 
 ```{r resume setting, echo = FALSE}
 is_resume <- params$is_resume
@@ -66,7 +59,7 @@ if(exists("params$is_resume")){
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
 <!-- re-type the sptring to avoid non-ASCII characters -->
 <!-- see https://stackoverflow.com/questions/76680882/unable-to-translate-to-a-wide-string -->
-```{r read in and filter cv data, include = FALSE}
+```{r read in and filter cv data, include = FALSE, eval = TRUE}
 knitr::opts_chunk$set(
   results = 'asis', 
   echo = FALSE

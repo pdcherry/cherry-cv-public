@@ -1,6 +1,8 @@
 # Patrick Cherry’s CV
 
 
+[ Download a resume in pdf](Patrick-Cherry-resume.pdf).
+
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
 <!-- re-type the sptring to avoid non-ASCII characters -->

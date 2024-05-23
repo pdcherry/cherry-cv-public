@@ -20,19 +20,14 @@ format:
     toc: true
     toc-expand: 2
     toc-depth: 2
-  pdf:
-    filters: [remove_extras.lua]
-    include-in-header: 
-      text: |
-        \usepackage{fontawesome5}
-    pdf-engine: xelatex
-    documentclass: scrartcl
-    mainfont: Helvetica Neue
-  gfm:
-    preview-mode: raw
 css: cynthia_cv.css
-format-links: [pdf]
+execute:
+  freeze: true
 ---
+
+
+
+[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf).
 
 
 ::: {.cell}
