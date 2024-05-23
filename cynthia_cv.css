@@ -1,10 +1,91 @@
-/* @import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap"); */
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap');
 
+/* all formats */
+
+.cvdate {
+  float: right;
+  font-style: italic
+}
+
+.print-only {
+  display: none;
+  /*color: aquamarine;*/
+}
+
+/* adapt stylesheet for print
+from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncomment-4081842 */
+
+/* for page-breaks use style spans
+  page-break-before: always;
+  page-break-after: always;
+*/
+.side-contact-list{
+  ul {
+  list-style-type: none;
+  }
+  break-inside: avoid;
+}
+
+.no-print {
+    display: none;
+}
+.print-only {
+    display: block;
+}
+.contact-block {
+    margin-top: 0%;
+    text-align: center;
+}
+html {
+  font-family: 'Public Sans', sans-serif;
+}
+header {
+  margin-block-end: 5em;
+}
+header h1.title {
+    /*display: none;*/
+}
+header .author {
+  font-size: 2em;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  margin-block-end: 0em;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.400em;
+  /* color: blueviolet; */
+}
+h3 {
+  font-weight: 500;
+  font-size: 1.200em;
+  /*text-transform: uppercase;*/
+  /* color: green; */
+}
+p {
+  font-size: 1.05em;
+  font-weight: 300;
+}
+ul li{
+  font-size: 1em;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #36a7e9;
+}
+
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap"); */
 /* Main text is Helvetica*/
 body {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 360;
-  line-height: 1.3;
+  line-height: 1.1;
   color: #444;
 }
 
@@ -46,8 +127,8 @@ sup {
 
 /* Avoid the breaking within a section */
 .blocks {
-  /* break-inside: avoid; */
-  /* page-break-inside: avoid-column; */
+  break-inside: avoid;
+  page-break-inside: avoid-column;
 }        
 
 * {
@@ -59,9 +140,9 @@ sup {
 
 /* Customize some of the sizing variables */
 :root {
-  --sidebar-width: 0rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #ffffff; /* Make sidebar green #f0fff0 */
-  --sidebar-horizontal-padding: 0in; /* Reduce sidebar padding */
+  --sidebar-width: 14rem; /* Shrink sidebar width  */
+  --sidebar-background-color: #f0fff0; /* Make sidebar green */
+  --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
   --decorator-border: 2px solid #66cf9f; /* Make timeline a blue as well*/
 }
@@ -70,41 +151,8 @@ sup {
   margin-top: 0.20rem;
 }
 
-p{
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-/* more compact spacing between sections */
-.level2{
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-main-block{
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-/* more compact spacing after about me paragraph */
-title.section.level2{
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .main-block:not(.concise) .details div {
   padding-top: 0.005rem;
-}
-
-/* get rid of random bookmark icon */
-.fa-bookmark::before {
-  size-adjust: -14px;
 }
 
 /* Laptop icon isn't centered by default which is sad */
@@ -138,12 +186,12 @@ title.section.level2{
   content: "• ";
 }
 
-/* /* Make sure elements in asside are centered and have a nice small text */
-/* .aside { */
-/*   width: calc(var(--sidebar-width) + 9px); */
-/*   line-height: 1.2; */
-/*   font-size: 0.75rem; */
-/* } */
+/* Make sure elements in asside are centered and have a nice small text */
+.aside {
+  width: calc(var(--sidebar-width) + 9px);
+  line-height: 1.2;
+  font-size: 0.75rem;
+}
 
 /* nudge the blue point over to be centered with the timeline vline */
 /* Make little circle outline be a light blue */
@@ -173,15 +221,15 @@ title.section.level2{
 }
 
 /* Without adding padding the content is all up on the title */
-.section.no-timeline h2 {
-  padding-bottom: 1rem;
-}
+/*.section.no-timeline h2 {
+/*  padding-bottom: 1rem;
+/*}
 
 /* Add styles for little cards  */
-/*.info-card{ */
-/*  width: 220px;     */
-/*  float: left;     */
-/*  padding: 0.5rem; */
-/*  margin: 0.5rem; */
-/*  box-shadow: 1px 1px 4px black; */
-/* } */
+.info-card{
+  width: 220px;    
+  float: left;    
+  padding: 0.5rem;
+  margin: 0.5rem;
+  box-shadow: 1px 1px 4px black;
+}
