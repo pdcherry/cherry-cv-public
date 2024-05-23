@@ -1,13 +1,9 @@
 ---
-title: "Patrick Cherry's Resume"
-# author: Patrick Cherry
-# date: !r format(Sys.time(), '%B %Y')
-position: "Senior Scientist | NGS | Twist Bioscience"
+title: "Patrick Cherry's CV"
+position: "Senior Scientist | Genomics"
 address: "San Francisco, California"
 # profilepic:
-www: "https://pdcherry.github.io"
-email: "pcherry@pm.me"
-phone: "+1 720 626-1167"
+www: "pdcherry.github.io"
 github: pdcherry
 linkedin: p-cherry
 orcid: "0000-0001-6421-2035"
@@ -17,32 +13,53 @@ params:
   pdf_mode:
     value: FALSE
   resume_type_param: "bfx"
-  output_format: "pagedown"
   is_resume: TRUE
-output:
-  pagedown::html_resume:
-    css: ['dd_cv.css', 'resume']
-    self_contained: TRUE
-  pdf_document: 
-    toc: no
-    latex_engine: xelatex
-    keep_tex: TRUE
-  word_document: 
-    toc: no
+format:
+  html:
+    keep-md: true
+    toc: true
+    toc-expand: 2
+    toc-depth: 2
+#css: cynthia_cv.css
+execute:
+  freeze: true
 ---
+
+[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf)
+
 ```{r resume setting, echo = FALSE}
 is_resume <- params$is_resume
 #is_resume <- TRUE
 resume_type_setting <- params$resume_type_param
 #resume_type_setting <- "bfx"
 # options are wetlab or bfx
-output_format <- params$output_format
 ```
+
+```{r set params based on pandoc format, echo = FALSE, warning = FALSE, message = FALSE}
+output_format <- knitr::pandoc_to()
+
+if(exists("params$is_resume")){
+  is_resume <- params$is_resume
+} else if(!exists("params$is_resume")){
+  
+  if(is.null(output_format)){
+  } else if(output_format=="html"){
+    is_resume <- FALSE
+    resume_type_setting <- params$resume_type_param
+  } else if(output_format=="pdf"){
+    is_resume <- TRUE
+    resume_type_setting <- params$resume_type_param
+  }
+}
+
+#paste("output_format =", output_format)
+```
+
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
 <!-- re-type the sptring to avoid non-ASCII characters -->
 <!-- see https://stackoverflow.com/questions/76680882/unable-to-translate-to-a-wide-string -->
-```{r read in and filter cv data, include = FALSE}
+```{r read in and filter cv data, include = FALSE, eval = TRUE}
 knitr::opts_chunk$set(
   results = 'asis', 
   echo = FALSE
@@ -83,60 +100,46 @@ if(params$pdf_mode) {
 }
 ```
 
-:::: aside
-<!-- Aside -->
-<!-- ================================================================================ -->
-<!-- ```{r network graph} -->
-<!-- # Build interactive network of positions colored by section -->
-<!-- # and connected if they occurred in the same year -->
-<!-- #datadrivencv::build_network_logo(CV$entries_data) -->
+<!-- :::: {.print-only .contact-block} -->
+<!-- Patrick Cherry {#title} -->
+<!-- -------------------------------------------------------------------------------- -->
+<!-- ```{r display contact info print} -->
+<!-- CV %>% print_contact_info() -->
 <!-- ``` -->
-<!-- ```{r} -->
-<!-- if(params$pdf_mode){ -->
-<!--   cat("View this CV online with links at __") -->
-<!-- } else { -->
-<!--   cat("[<i class='fas fa-download'></i> Download a PDF of this CV]()") -->
-<!-- } -->
-<!-- ``` -->
+<!-- :::: -->
 
+:::{.no-print}
+:::: aside
+::::: {.side-contact-list}
 Contact {#contact}
 --------------------------------------------------------------------------------
-```{r display contact info}
+```{r display contact info web}
 CV %>% print_contact_info()
 ```
-<!-- Language Skills {#skills} -->
-<!-- -------------------------------------------------------------------------------- -->
 
-<!-- ```{r skills graph} -->
-<!-- CV %>% print_skill_bars() -->
-<!-- ``` -->
-<!-- Disclaimer {#disclaimer} -->
-<!-- -------------------------------------------------------------------------------- -->
+:::::: {.disclaimer}
 
-::: {.disclaimer}
 Last updated on `r Sys.Date()`.
 
-Data-driven résumé made in R using pagedown.
+Data-driven résumé made in R using Quarto.
+::::::
+
+:::::
+::::
 :::
 
-::::
-
-Main
-================================================================================
-Patrick Cherry {#title}
---------------------------------------------------------------------------------
 ```{r intro section}
 # Note the special double pipe so we modify the CV object in place
 CV %<>% print_text_block('intro') 
 ```
 
-Education {data-icon=graduation-cap data-concise=true}
+{{< fa graduation-cap >}} Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 ```{r education data}
 CV %<>% print_section('education')
 ```
 
-Industry Experience {data-icon=suitcase}
+{{< fa suitcase >}} Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r industy experience aside}
@@ -147,7 +150,7 @@ CV %<>% print_text_block('industy_experience_aside')
 CV %<>% print_section('industry_positions')
 ```
 
-Research Experience {data-icon=flask}
+{{< fa flask >}} Research Experience {data-icon=flask}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r research experience aside}
@@ -158,7 +161,7 @@ CV %<>% print_text_block('research_experience_aside')
 CV %<>% print_section('research_experience')
 ```
 
-Intellectual Property {data-icon=lightbulb}
+{{< fa lightbulb >}} Intellectual Property {data-icon=lightbulb}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r intellectual property aside}
@@ -169,7 +172,7 @@ CV %<>% print_text_block('intellectual_property_aside')
 CV %<>% print_section('intellectual_property')
 ```
 
-Selected Publications {data-icon=book}
+{{< fa book >}} Publications {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r selected publications aside}
@@ -181,7 +184,7 @@ CV %<>% print_text_block('selected_publications_aside')
 CV %<>% print_section('academic_articles')
 ```
 
-Selected Presentations & Talks {data-icon=chalkboard-teacher}
+{{< fa chalkboard-teacher >}} Presentations & Talks {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r presentations aside}
@@ -192,16 +195,18 @@ CV %<>% print_text_block('presentations_aside')
 CV %<>% print_section('presentations')
 ```
 
-<!-- Trainees & Direct Reports {data-icon=leaf} -->
-<!-- -------------------------------------------------------------------------------- -->
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- CV %<>% print_text_block('trainees_reports_aside') -->
-<!-- ``` -->
-<!-- ::: -->
-<!-- ```{r} -->
-<!-- CV %<>% print_section('trainees_reports') -->
-<!-- ``` -->
-<!-- ```{r} -->
-<!-- CV %<>% print_links() -->
-<!-- ``` -->
+:::{.no-print}
+{{< fa leaf >}} Trainees & Direct Reports {data-icon=leaf}
+--------------------------------------------------------------------------------
+:::: aside
+```{r trainees and direct reports aside}
+CV %<>% print_text_block('trainees_reports_aside')
+```
+::::
+```{r trainees and direct reports data}
+CV %<>% print_section('trainees_reports')
+```
+```{r links section}
+CV %<>% print_links()
+```
+:::

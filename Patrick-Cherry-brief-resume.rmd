@@ -6,8 +6,6 @@ position: "Senior Scientist | NGS | Twist Bioscience"
 address: "San Francisco, California"
 # profilepic:
 www: "https://pdcherry.github.io"
-email: "pcherry@pm.me"
-phone: "+1 720 626-1167"
 github: pdcherry
 linkedin: p-cherry
 orcid: "0000-0001-6421-2035"
@@ -23,16 +21,12 @@ output:
   pagedown::html_resume:
     css: ['dd_cv.css', 'resume']
     self_contained: TRUE
-  pdf_document: 
-    toc: no
-    latex_engine: xelatex
-    keep_tex: TRUE
   word_document: 
     toc: no
 ---
 ```{r resume setting, echo = FALSE}
 is_resume <- params$is_resume
-#is_resume <- TRUE
+is_resume <- TRUE
 resume_type_setting <- params$resume_type_param
 #resume_type_setting <- "bfx"
 # options are wetlab or bfx
@@ -71,6 +65,21 @@ if (is_resume == TRUE){
 CV$entries_data <- filter(CV$entries_data, resume_type == resume_type_setting | resume_type == "N/A" )
 CV$text_blocks <- filter(CV$text_blocks, resume_type == resume_type_setting | is.na(resume_type) )
 ```
+
+Main
+================================================================================
+Patrick Cherry {#title}
+--------------------------------------------------------------------------------
+
+```{r display contact info}
+CV %>% print_contact_info()
+```
+```{r class.source="disclaimer"}
+cat(paste("<font color = '#999'>",
+          'Updated on', Sys.Date(),
+          '</font>'))
+```
+
 ```{r}
 # When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
 if(params$pdf_mode) {
@@ -83,51 +92,9 @@ if(params$pdf_mode) {
 }
 ```
 
-:::: aside
-<!-- Aside -->
-<!-- ================================================================================ -->
-<!-- ```{r network graph} -->
-<!-- # Build interactive network of positions colored by section -->
-<!-- # and connected if they occurred in the same year -->
-<!-- #datadrivencv::build_network_logo(CV$entries_data) -->
-<!-- ``` -->
-<!-- ```{r} -->
-<!-- if(params$pdf_mode){ -->
-<!--   cat("View this CV online with links at __") -->
-<!-- } else { -->
-<!--   cat("[<i class='fas fa-download'></i> Download a PDF of this CV]()") -->
-<!-- } -->
-<!-- ``` -->
-
-Contact {#contact}
---------------------------------------------------------------------------------
-```{r display contact info}
-CV %>% print_contact_info()
-```
-<!-- Language Skills {#skills} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r skills graph} -->
-<!-- CV %>% print_skill_bars() -->
-<!-- ``` -->
-<!-- Disclaimer {#disclaimer} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-::: {.disclaimer}
-Last updated on `r Sys.Date()`.
-
-Data-driven résumé made in R using pagedown.
-:::
-
-::::
-
-Main
-================================================================================
-Patrick Cherry {#title}
---------------------------------------------------------------------------------
 ```{r intro section}
 # Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block('intro') 
+CV %<>% print_text_block('intro')
 ```
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -138,67 +105,36 @@ CV %<>% print_section('education')
 
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
-::: aside
-```{r industy experience aside}
-CV %<>% print_text_block('industy_experience_aside')
-```
-:::
 ```{r industry_ positions data}
 CV %<>% print_section('industry_positions')
 ```
 
-Research Experience {data-icon=flask}
---------------------------------------------------------------------------------
-::: aside
-```{r research experience aside}
-CV %<>% print_text_block('research_experience_aside')
-```
-:::
-```{r research experience data}
-CV %<>% print_section('research_experience')
-```
+<!-- Research Experience {data-icon=flask} -->
+<!-- -------------------------------------------------------------------------------- -->
+<!-- ```{r research experience data} -->
+<!-- CV %<>% print_section('research_experience') -->
+<!-- ``` -->
 
-Intellectual Property {data-icon=lightbulb}
+Selected Intellectual Property {data-icon=lightbulb}
 --------------------------------------------------------------------------------
-::: aside
-```{r intellectual property aside}
-CV %<>% print_text_block('intellectual_property_aside')
-```
-:::
 ```{r intellectual property data}
 CV %<>% print_section('intellectual_property')
 ```
 
 Selected Publications {data-icon=book}
 --------------------------------------------------------------------------------
-::: aside
-```{r selected publications aside}
-CV %<>% print_text_block('selected_publications_aside')
-```
-:::
-
 ```{r academic articles data}
 CV %<>% print_section('academic_articles')
 ```
 
 Selected Presentations & Talks {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
-::: aside
-```{r presentations aside}
-CV %<>% print_text_block('presentations_aside')
-```
-:::
 ```{r presentations data}
 CV %<>% print_section('presentations')
 ```
 
 <!-- Trainees & Direct Reports {data-icon=leaf} -->
 <!-- -------------------------------------------------------------------------------- -->
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- CV %<>% print_text_block('trainees_reports_aside') -->
-<!-- ``` -->
-<!-- ::: -->
 <!-- ```{r} -->
 <!-- CV %<>% print_section('trainees_reports') -->
 <!-- ``` -->

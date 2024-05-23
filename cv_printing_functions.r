@@ -14,6 +14,7 @@
 #' @param sheet_is_publicly_readable If you're using google sheets for data,
 #'   is the sheet publicly available? (Makes authorization easier.)
 #' @return A new `CV_Printer` object.
+
 create_CV_object <-  function(data_location,
                               pdf_mode = FALSE,
                               sheet_is_publicly_readable = TRUE) {
@@ -228,13 +229,24 @@ Links {data-icon=link}
 }
 
 
-
 #' @description Contact information section with icons
 print_contact_info <- function(cv){
-  glue::glue_data(
-    cv$contact_info,
-    "- <i class='fa fa-{icon}'></i> {contact}"
-  ) %>% print()
-
+  if(output_format == "pdf"){
+    glue::glue_data(
+      cv$contact_info,
+      "\\faIcon{{{stringr::str_remove(icon, 'brands ')}}} {contact}"
+    ) %>% print()
+  } else if(output_format == "pagedown"){
+    glue::glue_data(
+      cv$contact_info,
+      "<i class='fa fa-{stringr::str_remove(icon, 'brands ')}'></i> {contact}", " | "
+    ) %>% print()
+    } else {
+    glue::glue_data(
+      cv$contact_info,
+      " - {{{{< fa {icon} >}}}} {contact}"
+    ) %>% writeLines() #print()
+  }
+  
   invisible(cv)
 }
