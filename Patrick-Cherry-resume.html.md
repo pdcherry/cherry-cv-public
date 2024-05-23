@@ -20,14 +20,14 @@ format:
     toc: true
     toc-expand: 2
     toc-depth: 2
-css: cynthia_cv.css
+#css: cynthia_cv.css
 execute:
   freeze: true
 ---
 
 
 
-[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf).
+[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf)
 
 
 ::: {.cell}
@@ -137,9 +137,9 @@ South San Francisco, California
 2024 - 2021
 
 - Invented and introduced multiple new products to market yielding millions of dollars in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*, and RNA-seq
-- Answered biological and business quesitons with reproducible exploratory analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`, `tidymodels`, `glm`, `nls`, `lme4`, and more
-- Edited and mainteined production QC pipelines with automated reporting using `Python` and the libraries: `numpy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, and others
-- Mintained production code (`git` version control with code review) and operated in high-performance compute environment `aws` `s3` & `ec2` and `Databricks` using  Unix shell / `bash` tools, like `STAR-fusion`
+- Answered biological and business questions with reproducible exploratory analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`, `tidymodels`, `glm`, `nls`, `lme4`, and more
+- Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, and others
+- Maintained production code (`git` version control with code review) and operated in high-performance compute environment `aws` `s3` & `ec2` and `Databricks` using  Unix shell / `bash` tools, like `STAR-fusion`
 - Authored internal `R` package "`twistcolorpal`" on Github with help files to help scientists style plots to Twist branding
 
 
@@ -288,7 +288,7 @@ Emeryville, California
 - Demonstration of novel counterselection mechanism in non-model *Bacillus* microbe for genetic modification
 
 
-{{< fa book >}} Selected Publications {data-icon=book}
+{{< fa book >}} Publications {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
 
@@ -321,7 +321,7 @@ South San Francisco, California
 
 
 
-### Twist Pan-cancer synthetic reference materials technical guide (depricated)
+### Twist Pan-cancer synthetic reference materials technical guide (deprecated)
 
 [Twist Bioscience](https://www.twistbioscience.com/resources/guideguideline/twist-cfdna-pan-cancer-reference-standard-technical-guide)
 
@@ -356,7 +356,7 @@ Aurora/Denver, Colorado
 - Cherry, P., White, L., York, K., & Hesselberth, J.
 
 
-{{< fa chalkboard-teacher >}} Selected Presentations & Talks {data-icon=chalkboard-teacher}
+{{< fa chalkboard-teacher >}} Presentations & Talks {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ::: aside
 
@@ -388,18 +388,6 @@ Madrid, Spain
 
 
 
-### Twist pan-cancer synthetic RNA fusion control for assay development
-
-[American Association for Cancer Researchers](https://aacrjournals.org/cancerres/article/83/7_Supplement/247/723555/Abstract-247-Twist-pan-cancer-synthetic-RNA-fusion), [Twist Bioscience](https://www.twistbioscience.com/resources/poster/twist-pan-cancer-synthetic-rna-fusion-control-assay-development)
-
-Orlando, Florida
-
-4/16/23
-
-- Patrick Cherry, Jason Corwin, Yu Cai, Kit Fuhrman, Jean Challacombe, Derek Murphy, Esteban Toro
-
-
-
 ### High sensitivity detection of specific ultra low-frequency somatic mutations for minimal residual disease (MRD) monitoring
 
 [American Association for Cancer Researchers](https://aacrjournals.org/cancerres/article/83/7_Supplement/6608/721948/Abstract-6608-High-sensitivity-detection-of), [Twist Bioscience](https://www.twistbioscience.com/resources/poster/high-sensitivity-detection-specific-ultra-low-frequency-somatic-mutations-mrd)
@@ -421,6 +409,18 @@ Orlando, Florida
 4/19/23
 
 - Lydia Bonar, Kristin Butcher, Michael Bocek, Holly Corbitt, Bryan Hoglund, Cibelle Nassif, _Patrick Cherry_, Derek Murphy, Jean Challacombe, Esteban Toro
+
+
+
+### Twist pan-cancer synthetic RNA fusion control for assay development
+
+[American Association for Cancer Researchers](https://aacrjournals.org/cancerres/article/83/7_Supplement/247/723555/Abstract-247-Twist-pan-cancer-synthetic-RNA-fusion), [Twist Bioscience](https://www.twistbioscience.com/resources/poster/twist-pan-cancer-synthetic-rna-fusion-control-assay-development)
+
+Orlando, Florida
+
+4/16/23
+
+- Patrick Cherry, Jason Corwin, Yu Cai, Kit Fuhrman, Jean Challacombe, Derek Murphy, Esteban Toro
 
 
 
@@ -484,25 +484,13 @@ New Orleans, Louisiana
 
 
 
-### RNA processing regulates the unfolded protein response
+### Pan-cancer Reference Standard: Methods in Automation & Future Needs
 
-CSHL: mRNA Processing Meeting Talk
+Twist Automation Group Meeting
 
-Cold Spring Harbor, New York
+South San Francisco, CA
 
-8/24/17
-
-
-
-
-
-### Turnover of endonucleolytic products of No-Go mRNA decay
-
-RNA Stability Meeting
-
-Estes Park, Colorado
-
-6/2/15
+4/5/22
 
 
 
@@ -515,18 +503,6 @@ Twist R&D Symposium
 South San Francisco, CA
 
 3/17/22
-
-
-
-
-
-### Pan-cancer Reference Standard: Methods in Automation & Future Needs
-
-Twist Automation Group Meeting
-
-South San Francisco, CA
-
-4/5/22
 
 
 
@@ -551,6 +527,18 @@ Twist R&D Meeting
 South San Francisco, CA
 
 7/13/21
+
+
+
+
+
+### Colorado RNA Club Industry Session
+
+Colorado RNA Club
+
+Boulder, Colorado
+
+4/10/21
 
 
 
@@ -587,18 +575,6 @@ NGS Technical Talk Series
 Emeryville, CA
 
 3/27/20
-
-
-
-
-
-### Colorado RNA Club Industry Session
-
-Colorado RNA Club
-
-Boulder, Colorado
-
-4/10/21
 
 
 
@@ -664,6 +640,18 @@ Aurora, Colorado
 
 
 
+### RNA processing regulates the unfolded protein response
+
+CSHL: mRNA Processing Meeting Talk
+
+Cold Spring Harbor, New York
+
+8/24/17
+
+
+
+
+
 ### Genetic bypass of essential yeast RNA repair enzymes
 
 Rocky Mountain Yeast Meeting Poster
@@ -707,6 +695,18 @@ Rocky Mountain Yeast Meeting Poster
 Fort Collins, Colorado
 
 1/8/16
+
+
+
+
+
+### Turnover of endonucleolytic products of No-Go mRNA decay
+
+RNA Stability Meeting
+
+Estes Park, Colorado
+
+6/2/15
 
 
 

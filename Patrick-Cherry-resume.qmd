@@ -20,12 +20,12 @@ format:
     toc: true
     toc-expand: 2
     toc-depth: 2
-css: cynthia_cv.css
+#css: cynthia_cv.css
 execute:
   freeze: true
 ---
 
-[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf).
+[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf)
 
 ```{r resume setting, echo = FALSE}
 is_resume <- params$is_resume
@@ -172,7 +172,7 @@ CV %<>% print_text_block('intellectual_property_aside')
 CV %<>% print_section('intellectual_property')
 ```
 
-{{< fa book >}} Selected Publications {data-icon=book}
+{{< fa book >}} Publications {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r selected publications aside}
@@ -184,7 +184,7 @@ CV %<>% print_text_block('selected_publications_aside')
 CV %<>% print_section('academic_articles')
 ```
 
-{{< fa chalkboard-teacher >}} Selected Presentations & Talks {data-icon=chalkboard-teacher}
+{{< fa chalkboard-teacher >}} Presentations & Talks {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r presentations aside}
