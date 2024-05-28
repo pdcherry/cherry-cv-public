@@ -78,7 +78,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2024-05-24.
+Last updated on 2024-05-27.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -137,7 +137,7 @@ South San Francisco, California
 2024 - 2021
 
 - Invented and introduced multiple new products to market yielding millions of dollars in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*, and RNA-seq
-- Answered biological and business questions with reproducible exploratory analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`, `tidymodels`, `glm`, `nls`, `lme4`, and more
+- Answered biological and business questions with DoE and data analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`, `tidymodels`, `glm`, `nls`, `lme4`, `AlgDesign`, and more
 - Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, and others
 - Maintained production code (`git` version control with code review) with CD (github actions); operated in high-performance compute environment `aws` `s3` and `Databricks` using  Unix shell / `bash` tools, like `STAR-fusion`
 - Authored internal `R` package "`twistcolorpal`" on Github with help files to help scientists style plots to Twist branding
@@ -168,7 +168,7 @@ Emeryville, California
 
 2021 - 2019
 
-- Boosted *NGS Core* genotyping success by 45% using data-driven decision-making and teaching; Guided demanding and diverse internal customers on complex NGS experiments
+- Boosted *NGS Core* genotyping success by 45% using DoE experimentation, data-driven decision-making, and teaching; Guided demanding and diverse internal customers on complex NGS experiments
 - Built and disseminated `Rmarkdown` notebook for autonomous NGS data exploration
 - Coded build and QC experiments using Zymergen's `Drawbridge` alembic API Python library to LIMS
 - Rendered strain build and plasmid build reports from LIMS `SQL` database in `MySQL` Workbench

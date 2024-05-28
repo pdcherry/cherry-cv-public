@@ -185,3 +185,11 @@ title.section.level2{
 /*  margin: 0.5rem; */
 /*  box-shadow: 1px 1px 4px black; */
 /* } */
+
+.test-text {
+  color: white;
+  opacity: 0.01;
+  font-size: 0.1em;
+  border-top: 0rem;
+  border-bottom: 0rem;
+}

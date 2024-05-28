@@ -35,7 +35,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2024-05-24.
+Last updated on 2024-05-27.
 
 Data-driven résumé made in R using Quarto.
 
@@ -109,10 +109,10 @@ South San Francisco, California
   millions of dollars in new revenue as *Tech Lead*, including:
   *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*,
   *Fragmentome Controls*, and RNA-seq
-- Answered biological and business questions with reproducible
-  exploratory analysis using `R` and the libraries: `dplyr`, `dbplyr`,
-  `DBI`, `purrr`, `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`,
-  `tidymodels`, `glm`, `nls`, `lme4`, and more
+- Answered biological and business questions with DoE and data analysis
+  using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`,
+  `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`, `tidymodels`, `glm`,
+  `nls`, `lme4`, `AlgDesign`, and more
 - Edited and maintained production QC pipelines with automated reporting
   using `Python` and the libraries: `NumPy`, `pandas`, `polars`,
   `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`,
@@ -155,9 +155,9 @@ Emeryville, California
 
 2021 - 2019
 
-- Boosted *NGS Core* genotyping success by 45% using data-driven
-  decision-making and teaching; Guided demanding and diverse internal
-  customers on complex NGS experiments
+- Boosted *NGS Core* genotyping success by 45% using DoE
+  experimentation, data-driven decision-making, and teaching; Guided
+  demanding and diverse internal customers on complex NGS experiments
 - Built and disseminated `Rmarkdown` notebook for autonomous NGS data
   exploration
 - Coded build and QC experiments using Zymergen’s `Drawbridge` alembic
