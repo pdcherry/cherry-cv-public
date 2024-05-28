@@ -35,7 +35,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2024-05-22.
+Last updated on 2024-05-27.
 
 Data-driven résumé made in R using Quarto.
 
@@ -109,18 +109,18 @@ South San Francisco, California
   millions of dollars in new revenue as *Tech Lead*, including:
   *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*,
   *Fragmentome Controls*, and RNA-seq
-- Answered biological and business questions with reproducible
-  exploratory analysis using `R` and the libraries: `dplyr`, `dbplyr`,
-  `DBI`, `purrr`, `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`,
-  `tidymodels`, `glm`, `nls`, `lme4`, and more
+- Answered biological and business questions with DoE and data analysis
+  using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`,
+  `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`, `tidymodels`, `glm`,
+  `nls`, `lme4`, `AlgDesign`, and more
 - Edited and maintained production QC pipelines with automated reporting
   using `Python` and the libraries: `NumPy`, `pandas`, `polars`,
   `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`,
   `scanpy`, and others
 - Maintained production code (`git` version control with code review)
-  and operated in high-performance compute environment `aws` `s3` &
-  `ec2` and `Databricks` using Unix shell / `bash` tools, like
-  `STAR-fusion`
+  with CD (github actions); operated in high-performance compute
+  environment `aws` `s3` and `Databricks` using Unix shell / `bash`
+  tools, like `STAR-fusion`
 - Authored internal `R` package “`twistcolorpal`” on Github with help
   files to help scientists style plots to Twist branding
 
@@ -132,17 +132,18 @@ South San Francisco, California
 
 2024 - 2021
 
-- As Tech Lead, launched the Twist *Pan-Cancer Reference Standard*, an
-  ISO-13485 synthetic positive control with 458 unique variants among 84
-  cancer-associated genes at six QC’d VAFs, plus a WT control; Launched
-  in Nov of 2021, and earned \$1 million in new revenue in first year
+- Tech Lead of Nov. 2021 launch of Twist *Pan-Cancer Reference
+  Standard*, an ISO-13485 synthetic control with 458 variants among 84
+  cancer-associated genes at six QC’d VAFs, plus a WT control, earning
+  \$1 million in revenue in year 1
 - Identified and optimized compatible ddPCR assays using web scraping in
   `R` with `rvest` for cfDNA quality control
 - Used Python to author automated data / QC reports using `Jinja2` (with
   `CSS`) and `WeasyPrint`
 - Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq
-  using bash tools `awk`, `grep`, `scp`, `wget`, `ssh`, `bwa`,
-  `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`
+  using bash tools like: `awk`, `grep`, `scp`, `wget`, Illumina
+  BaseSpace CLI, `ssh`, `bwa`, `bedtools`, `samtools`, `vcftools`,
+  `UMI-tools`/`fgbio`
 - Wrote original `SQL` queries for `Snowflake`-based database to answer
   production and business questions.
 
@@ -154,9 +155,9 @@ Emeryville, California
 
 2021 - 2019
 
-- Boosted *NGS Core* genotyping success by 45% using data-driven
-  decision-making and teaching; Guided demanding and diverse internal
-  customers on complex NGS experiments
+- Boosted *NGS Core* genotyping success by 45% using DoE
+  experimentation, data-driven decision-making, and teaching; Guided
+  demanding and diverse internal customers on complex NGS experiments
 - Built and disseminated `Rmarkdown` notebook for autonomous NGS data
   exploration
 - Coded build and QC experiments using Zymergen’s `Drawbridge` alembic
