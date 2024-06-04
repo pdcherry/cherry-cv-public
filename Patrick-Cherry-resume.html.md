@@ -27,22 +27,27 @@ execute:
 
 
 
+
 [{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf)
 
 
-::: {.cell}
-
-:::
 
 ::: {.cell}
 
 :::
+
+::: {.cell}
+
+:::
+
 
 
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
 <!-- re-type the sptring to avoid non-ASCII characters -->
 <!-- see https://stackoverflow.com/questions/76680882/unable-to-translate-to-a-wide-string -->
+
+
 
 
 
@@ -65,6 +70,7 @@ execute:
 Contact {#contact}
 --------------------------------------------------------------------------------
 
+
  - {{< fa envelope >}} pcherry [at] pm dot me
  - {{< fa phone >}} upon request
  - {{< fa suitcase >}} Senior Scientist | Genomics
@@ -76,9 +82,10 @@ Contact {#contact}
  - {{< fa id-card >}} United States Citizen
 
 
+
 :::::: {.disclaimer}
 
-Last updated on 2024-05-27.
+Last updated on 2024-06-03.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -88,11 +95,14 @@ Data-driven résumé made in R using Quarto.
 :::
 
 
+
 PhD scientist skilled in data visualization, statistical modeling, bioinformatics, next-generation sequencing (NGS), and tool-building. I've coded reproducible and rigorous pipelines for high-throughput experimental designs and multi-omic analyses for communication to technical and non-technical audiences. I've launched best-in-class oncology reference standards and analyzed NGS data from Illumina, MGI, and Element. Originally trained in Molecular Biology, I am passionate about advancing data science and bioinformatics to improve human health and understand biology.
+
 
 
 {{< fa graduation-cap >}} Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
+
 
 ### PhD
 
@@ -120,13 +130,17 @@ Conway, Arkansas
 - Minor in Mathematics; PI: Lars Seme; Project: Newton's method as a fractal chaotic dynamical system
 
 
+
 {{< fa suitcase >}} Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ::: aside
 
+
 I currently split my time between wet lab and computational activities. I have worked in a variety of roles ranging from HTP strain onboarding to genomics scientist. I like collaborative environments where I can learn from my peers and in turn teach others.
 
+
 :::
+
 
 ### Senior Scientist, Genomics
 
@@ -137,7 +151,7 @@ South San Francisco, California
 2024 - 2021
 
 - Invented and introduced multiple new products to market yielding millions of dollars in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*, and RNA-seq
-- Answered biological and business questions with DoE and data analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`, `tidymodels`, `glm`, `nls`, `lme4`, `AlgDesign`, and more
+- Answered biological and business questions with [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html) and data analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, [`DEseq2`](https://pdcherry.github.io/posts/2024_01_03-GTEX_RNA_seq_liver.html), [`seurat`](https://pdcherry.github.io/posts/2024_01_22-scRNA-seq.html), [`tidymodels`](https://pdcherry.github.io/posts/2024_02_10-SF_tree_classification.html), `glm`, `nls`, `lme4`, [`AlgDesign`](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html), and more
 - Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, and others
 - Maintained production code (`git` version control with code review) with CD (github actions); operated in high-performance compute environment `aws` `s3` and `Databricks` using  Unix shell / `bash` tools, like `STAR-fusion`
 - Authored internal `R` package "`twistcolorpal`" on Github with help files to help scientists style plots to Twist branding
@@ -174,13 +188,17 @@ Emeryville, California
 - Rendered strain build and plasmid build reports from LIMS `SQL` database in `MySQL` Workbench
 
 
+
 {{< fa flask >}} Research Experience {data-icon=flask}
 --------------------------------------------------------------------------------
 ::: aside
 
+
 I worked on a few projects during my PhD, and the RNA repair project led me to custom 5&prime;-OH RNA-seq libraries, which inspired my fascination with transcriptomics and bioinformatics.
 
+
 :::
+
 
 ### Doctoral Research
 
@@ -231,13 +249,17 @@ New Orleans, Louisiana
 2011 - 2010
 
 
+
 {{< fa lightbulb >}} Intellectual Property {data-icon=lightbulb}
 --------------------------------------------------------------------------------
 ::: aside
 
+
 Working at Twist and Zymergen on new product research requires confidentiality, but public evidence of accomplishments often comes in patent applications. The Legal teams know me well for being a helpful expert in the process.
 
+
 :::
+
 
 ### Methylation-mediated adapter removal on nucleic acid sequences
 
@@ -288,13 +310,17 @@ Emeryville, California
 - Demonstration of novel counterselection mechanism in non-model *Bacillus* microbe for genetic modification
 
 
+
 {{< fa book >}} Publications {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
 
+
 I communicate my results clearly, both in writing and in live presentations. I enjoy writing research papers, but my career has required more tech notes and app notes recently.
 
+
 :::
+
 
 
 ### Twist cfDNA Pan-Cancer Reference Standard v2 Technical Guidance
@@ -356,13 +382,17 @@ Aurora/Denver, Colorado
 - Cherry, P., White, L., York, K., & Hesselberth, J.
 
 
+
 {{< fa chalkboard-teacher >}} Presentations & Talks {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ::: aside
 
+
 I give audience-centered presentations by adapting on the fly and over time to the venue and occasion. I like to *transfer knowledge* by giving methods/best practices talks whose slides can also serve as documentation.
 
+
 :::
+
 
 ### Twist pan-cancer reference standard V2: Enhanced precision and reduced errors in ctDNA analysis
 
@@ -757,14 +787,18 @@ Conway, Arkansas
 2013
 
 
+
 :::{.no-print}
 {{< fa leaf >}} Trainees & Direct Reports {data-icon=leaf}
 --------------------------------------------------------------------------------
 :::: aside
 
+
 While I've not held a role with "manager" in the title, all Scientist positions I've accepted have involved formal report management responsibility. I take managing and mentoring seriously; I emphasize trust, learning, and growth with my reports.
 
+
 ::::
+
 
 ### Derek Cai, BS, University of California San Diego, Research Associate I
 
@@ -857,6 +891,7 @@ University of Colorado School of Medicine
 Aurora/Denver, Colorado
 
 2015
+
 
 
 

@@ -35,7 +35,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2024-05-27.
+Last updated on 2024-06-03.
 
 Data-driven résumé made in R using Quarto.
 
@@ -109,10 +109,16 @@ South San Francisco, California
   millions of dollars in new revenue as *Tech Lead*, including:
   *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*,
   *Fragmentome Controls*, and RNA-seq
-- Answered biological and business questions with DoE and data analysis
-  using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`,
-  `ggplot2`, `Bioconductor`, `DEseq2`, `seurat`, `tidymodels`, `glm`,
-  `nls`, `lme4`, `AlgDesign`, and more
+- Answered biological and business questions with
+  [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html)
+  and data analysis using `R` and the libraries: `dplyr`, `dbplyr`,
+  `DBI`, `purrr`, `ggplot2`, `Bioconductor`,
+  [`DEseq2`](https://pdcherry.github.io/posts/2024_01_03-GTEX_RNA_seq_liver.html),
+  [`seurat`](https://pdcherry.github.io/posts/2024_01_22-scRNA-seq.html),
+  [`tidymodels`](https://pdcherry.github.io/posts/2024_02_10-SF_tree_classification.html),
+  `glm`, `nls`, `lme4`,
+  [`AlgDesign`](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html),
+  and more
 - Edited and maintained production QC pipelines with automated reporting
   using `Python` and the libraries: `NumPy`, `pandas`, `polars`,
   `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`,
