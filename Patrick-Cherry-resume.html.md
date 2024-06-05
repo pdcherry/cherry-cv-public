@@ -85,7 +85,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2024-06-03.
+Last updated on 2024-06-05.
 
 Data-driven résumé made in R using Quarto.
 ::::::

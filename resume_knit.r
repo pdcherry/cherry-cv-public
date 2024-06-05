@@ -8,6 +8,10 @@
 # for the HTML and PDF rendering.
 
 # Resume
+## update entries
+fs::file_copy("~/cherry-cv/CV_data/entries.csv",
+              "~/cherry-cv-public/CV_data/entries.csv",
+              overwrite = TRUE)
 ## bfx resume
 ### Knit the HTML version
 rmarkdown::render("Patrick-Cherry-brief-resume.rmd",
