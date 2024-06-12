@@ -85,7 +85,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2024-06-05.
+Last updated on 2024-06-10.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -96,7 +96,7 @@ Data-driven résumé made in R using Quarto.
 
 
 
-PhD scientist skilled in data visualization, statistical modeling, bioinformatics, next-generation sequencing (NGS), and tool-building. I've coded reproducible and rigorous pipelines for high-throughput experimental designs and multi-omic analyses for communication to technical and non-technical audiences. I've launched best-in-class oncology reference standards and analyzed NGS data from Illumina, MGI, and Element. Originally trained in Molecular Biology, I am passionate about advancing data science and bioinformatics to improve human health and understand biology.
+PhD scientist and professional critical thinker, problem-solver, and science communicator. At the interface of data science, genomics, and statistics; skilled at data visualization, bioinformatics, next-generation sequencing (NGS), and tool-building. I've coded reproducible pipelines for high-throughput experimental designs and genomic analyses. I've launched best-in-class oncology reference standards and analyzed NGS data from Illumina, MGI, and Element. Originally trained in Molecular Biology, I am passionate about advancing data science and bioinformatics to improve human health and to understand biology.
 
 
 
@@ -154,7 +154,7 @@ South San Francisco, California
 - Answered biological and business questions with [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html) and data analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, [`DEseq2`](https://pdcherry.github.io/posts/2024_01_03-GTEX_RNA_seq_liver.html), [`seurat`](https://pdcherry.github.io/posts/2024_01_22-scRNA-seq.html), [`tidymodels`](https://pdcherry.github.io/posts/2024_02_10-SF_tree_classification.html), `glm`, `nls`, `lme4`, [`AlgDesign`](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html), and more
 - Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, and others
 - Maintained production code (`git` version control with code review) with CD (github actions); operated in high-performance compute environment `aws` `s3` and `Databricks` using  Unix shell / `bash` tools, like `STAR-fusion`
-- Authored internal `R` package "`twistcolorpal`" on Github with help files to help scientists style plots to Twist branding
+- Authored internal `R` package "[`twistcolorpal`](https://github.com/pdcherry/twistcolorpal)" on Github with help files to help scientists style plots to Twist branding
 
 
 
@@ -168,8 +168,8 @@ South San Francisco, California
 
 - Tech Lead of Nov. 2021 launch of Twist *Pan-Cancer Reference Standard*, an ISO-13485 synthetic control with 458 variants among 84 cancer-associated genes at six QC'd VAFs, plus a WT control, earning $1 million in revenue in year 1
 - Identified and optimized compatible ddPCR assays using web scraping in `R` with `rvest` for cfDNA quality control
-- Used Python to author automated data / QC reports using `Jinja2` (with `CSS`) and `WeasyPrint`
-- Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq using bash tools like: `awk`, `grep`, `scp`, `wget`, Illumina BaseSpace CLI, `ssh`, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`
+- Used Python to author automated data / QC reports using `Jinja2` (with `CSS`) and `WeasyPrint`, documented on Jira
+- Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq using bash tools like: `awk`, `grep`, `scp`, `wget`, Illumina BaseSpace CLI, `ssh`, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`; Confluence documentation
 - Wrote original `SQL` queries for `Snowflake`-based database to answer production and business questions.
 
 
@@ -184,7 +184,7 @@ Emeryville, California
 
 - Boosted *NGS Core* genotyping success by 45% using DoE experimentation, data-driven decision-making, and teaching; Guided demanding and diverse internal customers on complex NGS experiments
 - Built and disseminated `Rmarkdown` notebook for autonomous NGS data exploration
-- Coded build and QC experiments using Zymergen's `Drawbridge` alembic API Python library to LIMS
+- Coded plasmid and strain build and QC experiments using Zymergen's alembic Python API to LIMS database
 - Rendered strain build and plasmid build reports from LIMS `SQL` database in `MySQL` Workbench
 
 

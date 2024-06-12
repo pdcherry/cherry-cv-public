@@ -35,7 +35,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2024-06-05.
+Last updated on 2024-06-10.
 
 Data-driven résumé made in R using Quarto.
 
@@ -47,15 +47,16 @@ Data-driven résumé made in R using Quarto.
 
 </div>
 
-PhD scientist skilled in data visualization, statistical modeling,
-bioinformatics, next-generation sequencing (NGS), and tool-building.
-I’ve coded reproducible and rigorous pipelines for high-throughput
-experimental designs and multi-omic analyses for communication to
-technical and non-technical audiences. I’ve launched best-in-class
-oncology reference standards and analyzed NGS data from Illumina, MGI,
-and Element. Originally trained in Molecular Biology, I am passionate
-about advancing data science and bioinformatics to improve human health
-and understand biology.
+PhD scientist and professional critical thinker, problem-solver, and
+science communicator. At the interface of data science, genomics, and
+statistics; skilled at data visualization, bioinformatics,
+next-generation sequencing (NGS), and tool-building. I’ve coded
+reproducible pipelines for high-throughput experimental designs and
+genomic analyses. I’ve launched best-in-class oncology reference
+standards and analyzed NGS data from Illumina, MGI, and Element.
+Originally trained in Molecular Biology, I am passionate about advancing
+data science and bioinformatics to improve human health and to
+understand biology.
 
 ##  Education
 
@@ -127,8 +128,10 @@ South San Francisco, California
   with CD (github actions); operated in high-performance compute
   environment `aws` `s3` and `Databricks` using Unix shell / `bash`
   tools, like `STAR-fusion`
-- Authored internal `R` package “`twistcolorpal`” on Github with help
-  files to help scientists style plots to Twist branding
+- Authored internal `R` package
+  “[`twistcolorpal`](https://github.com/pdcherry/twistcolorpal)” on
+  Github with help files to help scientists style plots to Twist
+  branding
 
 ### Scientist, Genomics
 
@@ -145,11 +148,11 @@ South San Francisco, California
 - Identified and optimized compatible ddPCR assays using web scraping in
   `R` with `rvest` for cfDNA quality control
 - Used Python to author automated data / QC reports using `Jinja2` (with
-  `CSS`) and `WeasyPrint`
+  `CSS`) and `WeasyPrint`, documented on Jira
 - Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq
   using bash tools like: `awk`, `grep`, `scp`, `wget`, Illumina
   BaseSpace CLI, `ssh`, `bwa`, `bedtools`, `samtools`, `vcftools`,
-  `UMI-tools`/`fgbio`
+  `UMI-tools`/`fgbio`; Confluence documentation
 - Wrote original `SQL` queries for `Snowflake`-based database to answer
   production and business questions.
 
@@ -166,8 +169,8 @@ Emeryville, California
   demanding and diverse internal customers on complex NGS experiments
 - Built and disseminated `Rmarkdown` notebook for autonomous NGS data
   exploration
-- Coded build and QC experiments using Zymergen’s `Drawbridge` alembic
-  API Python library to LIMS
+- Coded plasmid and strain build and QC experiments using Zymergen’s
+  alembic Python API to LIMS database
 - Rendered strain build and plasmid build reports from LIMS `SQL`
   database in `MySQL` Workbench
 
