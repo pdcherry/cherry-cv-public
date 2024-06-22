@@ -15,6 +15,17 @@
 #'   is the sheet publicly available? (Makes authorization easier.)
 #' @return A new `CV_Printer` object.
 
+
+global_resume_date_output_format <- "%b %Y"
+# custom function for parsing dates outputted by saved CSVs edited in MS Excel
+resume_date_parser <- function(date_string){
+  formats <- c("%m/%d/%y", "%Y")
+  
+  parsed_date = lubridate::parse_date_time(date_string, orders = formats)
+  
+  return(parsed_date)
+}
+
 create_CV_object <-  function(data_location,
                               pdf_mode = FALSE,
                               sheet_is_publicly_readable = TRUE) {
@@ -68,7 +79,7 @@ create_CV_object <-  function(data_location,
 
     paste("1", date_month, extract_year(dates), sep = "-") %>%
       lubridate::dmy()
-  }
+    }
 
   # Clean up entries dataframe to format we need it for printing
   cv$entries_data %<>%
@@ -80,24 +91,30 @@ create_CV_object <-  function(data_location,
     ) %>%
     dplyr::mutate(
       description_bullets = ifelse(description_bullets != "", paste0("- ", description_bullets), ""),
+      # keep dates as native date values from imported csv
       start = ifelse(start == "NULL", NA, start),
       end = ifelse(end == "NULL", NA, end),
       start_year = extract_year(start),
       end_year = extract_year(end),
-      no_start = is.na(start),
-      has_start = !no_start,
-      no_end = is.na(end),
-      has_end = !no_end,
-      timeline = dplyr::case_when(
-        no_start  & no_end  ~ "N/A",
-        no_start  & has_end ~ as.character(end),
-        has_start & no_end  ~ paste("Current", "-", start),
-        TRUE                ~ paste(end, "-", start)
-      )
-    ) %>%
+      no_start = is.na(start), has_start = !no_start,
+      no_end = is.na(end), has_end = !no_end,
+      # tidy start [date] and end [date] columns due to editing in MS Excel
+      "start" = resume_date_parser(start), "end" = resume_date_parser(end)) %>%
     dplyr::arrange(desc(parse_dates(end))) %>%
+    # after all sorting, change dates to be like 'Nov-2021'
+    # see lubridate::stamp("Nov-2021")
+    dplyr::mutate("start" = format(lubridate::as_date(start), format = global_resume_date_output_format),
+                  "end" = format(lubridate::as_date(end), format = global_resume_date_output_format),
+                  # then compose the {timeline} string
+                  "timeline" = dplyr::case_when(
+                    no_start  & no_end  ~ "N/A",
+                    no_start  & has_end ~ as.character(end),
+                    has_start & no_end  ~ paste("Current", "-", start),
+                    TRUE                ~ paste(end, "-", start)
+                  )
+    ) %>%
     dplyr::mutate_all(~ ifelse(is.na(.), 'N/A', .))
-
+  
   cv
 }
 

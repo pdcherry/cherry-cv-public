@@ -62,6 +62,7 @@ sup {
   --sidebar-width: 0rem; /* Shrink sidebar width  */
   --sidebar-background-color: #ffffff; /* Make sidebar green #f0fff0 */
   --sidebar-horizontal-padding: 0in; /* Reduce sidebar padding */
+  --decorator-horizontal-margin: 0.17in; /* added 2024-06-22 to help give more room for month + year date scheme */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
   --decorator-border: 2px solid #66cf9f; /* Make timeline a blue as well*/
 }
@@ -115,6 +116,13 @@ title.section.level2{
 /* Lightbulb icon isn't centered by default which is sad */
 .fa-lightbulb {
   margin-left: +2px;
+}
+
+/* make bullet list text justified and try to make first line not intented */
+ul {
+  text-align: start;
+  list-style-position: outside;
+  padding-left: 0;
 }
 
 /* When we have links at bottom in a list make sure they actually are numbered */
