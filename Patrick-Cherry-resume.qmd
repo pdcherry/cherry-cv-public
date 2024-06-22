@@ -25,7 +25,7 @@ execute:
   freeze: true
 ---
 
-[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf)
+[{{< fa file-pdf >}} Download resume version as pdf](Patrick-Cherry-resume.pdf)
 
 ```{r resume setting, echo = FALSE}
 is_resume <- params$is_resume

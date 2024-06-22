@@ -28,7 +28,7 @@ execute:
 
 
 
-[{{< fa file-pdf >}} Download a resume in pdf](Patrick-Cherry-resume.pdf)
+[{{< fa file-pdf >}} Download resume version as pdf](Patrick-Cherry-resume.pdf)
 
 
 
@@ -85,7 +85,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2024-06-10.
+Last updated on 2024-06-22.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -150,7 +150,7 @@ South San Francisco, California
 
 2024 - 2021
 
-- Invented and introduced multiple new products to market yielding millions of dollars in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*, and RNA-seq
+- Invented and introduced multiple new products to market yielding $1M+ in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*, and RNA-seq
 - Answered biological and business questions with [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html) and data analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, [`DEseq2`](https://pdcherry.github.io/posts/2024_01_03-GTEX_RNA_seq_liver.html), [`seurat`](https://pdcherry.github.io/posts/2024_01_22-scRNA-seq.html), [`tidymodels`](https://pdcherry.github.io/posts/2024_02_10-SF_tree_classification.html), `glm`, `nls`, `lme4`, [`AlgDesign`](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html), and more
 - Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, and others
 - Maintained production code (`git` version control with code review) with CD (github actions); operated in high-performance compute environment `aws` `s3` and `Databricks` using  Unix shell / `bash` tools, like `STAR-fusion`
@@ -166,15 +166,15 @@ South San Francisco, California
 
 2024 - 2021
 
-- Tech Lead of Nov. 2021 launch of Twist *Pan-Cancer Reference Standard*, an ISO-13485 synthetic control with 458 variants among 84 cancer-associated genes at six QC'd VAFs, plus a WT control, earning $1 million in revenue in year 1
+- Tech Lead of Nov. 2021 launch of Twist *Pan-Cancer Reference Standard*, an ISO-13485 synthetic control with 458 variants among 84 cancer-associated genes at six QC'd VAFs, plus a WT control, earning +$1M in revenue in year 1
 - Identified and optimized compatible ddPCR assays using web scraping in `R` with `rvest` for cfDNA quality control
 - Used Python to author automated data / QC reports using `Jinja2` (with `CSS`) and `WeasyPrint`, documented on Jira
-- Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq using bash tools like: `awk`, `grep`, `scp`, `wget`, Illumina BaseSpace CLI, `ssh`, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`; Confluence documentation
+- Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq using bash tools like: `awk`, `grep`, `wget`, `ssh`, `GATK`, BaseSpace CLI, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`; Confluence documentation
 - Wrote original `SQL` queries for `Snowflake`-based database to answer production and business questions.
 
 
 
-### Scientist I, NGS & NPI-Build
+### Scientist I, NGS Core & Strain-Build Process Development
 
 Zymergen, Inc.
 
@@ -610,7 +610,7 @@ Emeryville, CA
 
 
 
-### RNA terminus chemistry potentiates decay events that target HAC1 mRNA during the unfolded protein response
+### RNA terminus chemistry potentiates decay events that target *HAC1* mRNA during the unfolded protein response
 
 Thesis Defense Seminar
 
