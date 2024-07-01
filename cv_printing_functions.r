@@ -256,12 +256,12 @@ print_contact_info <- function(cv){
   } else if(output_format == "pagedown"){
     glue::glue_data(
       cv$contact_info,
-      "<i class='fa fa-{stringr::str_remove(icon, 'brands ')}'></i> {contact}", " | "
+      "<i class='fa fa-{stringr::str_remove(icon, 'brands ')}'></i>&nbsp;{contact}", " | "
     ) %>% print()
     } else {
     glue::glue_data(
       cv$contact_info,
-      " - {{{{< fa {icon} >}}}} {contact}"
+      " - {{{{< fa {icon} >}}}}&nbsp;{contact}"
     ) %>% writeLines() #print()
   }
   

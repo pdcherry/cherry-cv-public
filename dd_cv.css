@@ -103,6 +103,10 @@ title.section.level2{
   padding-top: 0.005rem;
 }
 
+.fa {
+  display: var(--fa-display, inline);
+}
+
 /* get rid of random bookmark icon */
 .fa-bookmark::before {
   size-adjust: -14px;

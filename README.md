@@ -23,15 +23,15 @@
 
 ## Contact
 
--  pcherry \[at\] pm dot me
--  upon request
--  Senior Scientist \| Genomics
--  Twist Bioscience
--  San Francisco, California
--  [pdcherry.github.io](https://pdcherry.github.io)
--  [github.com/pdcherry](https://github.com/pdcherry)
--  [linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
--  United States Citizen
+-  pcherry \[at\] pm dot me
+-  upon request
+-  Senior Scientist \| Genomics
+-  Twist Bioscience
+-  San Francisco, California
+-  [pdcherry.github.io](https://pdcherry.github.io)
+-  [github.com/pdcherry](https://github.com/pdcherry)
+-  [linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
+-  United States Citizen
 
 <div class="disclaimer">
 
