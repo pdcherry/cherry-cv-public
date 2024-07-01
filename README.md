@@ -35,7 +35,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2024-06-22.
+Last updated on 2024-07-01.
 
 Data-driven résumé made in R using Quarto.
 

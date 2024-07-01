@@ -108,6 +108,16 @@ title.section.level2{
   size-adjust: -14px;
 }
 
+/* Graduation cap icon in Education isn't centered by default which is sad */
+.fa-graduation-cap {
+  margin-left: 3px;
+}
+
+/* Suitcase icon in Industry isn't centered by default which is sad */
+.fa-suitcase {
+  margin-left: 2.75px;
+}
+
 /* Laptop icon isn't centered by default which is sad */
 .fa-laptop {
   margin-left: -3px;
@@ -115,7 +125,12 @@ title.section.level2{
 
 /* Lightbulb icon isn't centered by default which is sad */
 .fa-lightbulb {
-  margin-left: +2px;
+  margin-left: 4.5px;
+}
+
+/* Book icon in Publications isn't centered by default which is sad */
+.fa-book {
+  margin-left: 3.5px;
 }
 
 /* make bullet list text justified and try to make first line not intented */
