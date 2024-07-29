@@ -35,7 +35,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2024-07-01.
+Last updated on 2024-07-29.
 
 Data-driven résumé made in R using Quarto.
 
@@ -106,10 +106,9 @@ South San Francisco, California
 
 Apr 2024 - Nov 2021
 
-- Invented and introduced multiple new products to market yielding \$1M+
-  in new revenue as *Tech Lead*, including: *Pan-cancer cfDNA* (v1 &
-  v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*,
-  and RNA-seq
+- Produced \$1M+ in new revenue as *Tech Lead* on invention and launch
+  of: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion
+  Controls*, *Fragmentome Controls*, and RNA-seq
 - Answered biological and business questions with
   [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html)
   and data analysis using `R` and the libraries: `dplyr`, `dbplyr`,
@@ -141,20 +140,20 @@ South San Francisco, California
 
 Apr 2024 - Jan 2021
 
-- Tech Lead of Nov. 2021 launch of Twist *Pan-Cancer Reference
-  Standard*, an ISO-13485 synthetic control with 458 variants among 84
-  cancer-associated genes at six QC’d VAFs, plus a WT control, earning
-  +\$1M in revenue in year 1
+- Earning +\$1M in revenue in year 1 as *Tech Lead* of Twist *Pan-Cancer
+  Reference Standard*, an ISO-13485 synthetic control with 458 variants
+  among 84 cancer-associated genes at six QC’d VAFs, plus a WT control,
+  launched Nov. 2021
 - Identified and optimized compatible ddPCR assays using web scraping in
   `R` with `rvest` for cfDNA quality control
-- Used Python to author automated data / QC reports using `Jinja2` (with
-  `CSS`) and `WeasyPrint`, documented on Jira
+- Automated data / QC reports with Python packages `Jinja2` (with `CSS`)
+  and `WeasyPrint`, documented on Jira
 - Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq
   using bash tools like: `awk`, `grep`, `wget`, `ssh`, `GATK`, BaseSpace
   CLI, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`;
   Confluence documentation
-- Wrote original `SQL` queries for `Snowflake`-based database to answer
-  production and business questions.
+- Answered production and business questions with original `SQL` queries
+  for `Snowflake`-based database.
 
 ### Scientist I, NGS Core & Strain-Build Process Development
 
@@ -362,7 +361,9 @@ documentation.
 ### Twist pan-cancer reference standard V2: Enhanced precision and reduced errors in ctDNA analysis
 
 [Advances in Genome Biology and
-Technology](https://www.twistbioscience.com/resources/poster/twist-pan-cancer-reference-standards-v2-enhanced-precision-and-reduced-errors)
+Technology](https://www.biospace.com/twist-bioscience-unveils-differentiated-ultra-high-throughput-library-preparation-solution-at-agbt),
+[Twist
+Bioscience](https://www.twistbioscience.com/resources/poster/twist-pan-cancer-reference-standards-v2-enhanced-precision-and-reduced-errors)
 
 Orlando, Florida
 
@@ -389,7 +390,7 @@ Nov 2023
 ### High sensitivity detection of specific ultra low-frequency somatic mutations for minimal residual disease (MRD) monitoring
 
 [American Association for Cancer
-Researchers](https://aacrjournals.org/cancerres/article/83-7_Supplement/6608-721948/Abstract-6608-High-sensitivity-detection-of),
+Researchers](https://aacrjournals.org/cancerres/article/83/7_Supplement/6608/721948/Abstract-6608-High-sensitivity-detection-of),
 [Twist
 Bioscience](https://www.twistbioscience.com/resources/poster/high-sensitivity-detection-specific-ultra-low-frequency-somatic-mutations-mrd)
 
@@ -403,7 +404,7 @@ Apr 2023
 ### An end-to-end workflow for accurate methylation detection
 
 [American Association for Cancer
-Researchers](https://aacrjournals.org/cancerres/article/83-7_Supplement/6009-721811/Abstract-6009-An-end-to-end-workflow-for-improved),
+Researchers](https://aacrjournals.org/cancerres/article/83/7_Supplement/6009/721811/Abstract-6009-An-end-to-end-workflow-for-improved),
 [Twist
 Bioscience](https://www.twistbioscience.com/resources/poster/end-end-workflow-accurate-methylation-detection)
 
@@ -418,7 +419,7 @@ Apr 2023
 ### Twist pan-cancer synthetic RNA fusion control for assay development
 
 [American Association for Cancer
-Researchers](https://aacrjournals.org/cancerres/article/83-7_Supplement/247-723555/Abstract-247-Twist-pan-cancer-synthetic-RNA-fusion),
+Researchers](https://aacrjournals.org/cancerres/article/83/7_Supplement/247/723555/Abstract-247-Twist-pan-cancer-synthetic-RNA-fusion),
 [Twist
 Bioscience](https://www.twistbioscience.com/resources/poster/twist-pan-cancer-synthetic-rna-fusion-control-assay-development)
 
@@ -440,7 +441,9 @@ Apr 2023
 ### Use of synthetic CNV fragments to mimic copy number alterations for ctDNA reference standards
 
 [Advances in Genome Biology and
-Technology](https://www.twistbioscience.com/resources/poster/use-synthetic-cnv-fragments-mimic-copy-number-alterations-ctdna-reference)
+Technology](https://www.biospace.com/twist-bioscience-unveils-differentiated-ultra-high-throughput-library-preparation-solution-at-agbt),
+[Twist
+Bioscience](https://www.twistbioscience.com/resources/poster/use-synthetic-cnv-fragments-mimic-copy-number-alterations-ctdna-reference)
 
 Hollywood, Florida
 
@@ -476,7 +479,9 @@ May 2022
 ### Twist pan-cancer synthetic reference materials for cell-free DNA (cfDNA) assay development
 
 [American Association for Cancer
-Researchers](https://www.twistbioscience.com/resources/poster/twist-pan-cancer-synthetic-reference-materials-cell-free-dna-cfdna-assay)
+Researchers](https://aacrjournals.org/cancerres/article/82/12_Supplement/LB110/704733/Abstract-LB110-Twist-pan-cancer-synthetic),
+[Twist
+Bioscience](https://www.twistbioscience.com/resources/poster/twist-pan-cancer-synthetic-reference-materials-cell-free-dna-cfdna-assay)
 
 New Orleans, Louisiana
 
