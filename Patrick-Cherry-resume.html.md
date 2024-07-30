@@ -85,7 +85,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2024-07-29.
+Last updated on 2024-07-30.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -166,11 +166,11 @@ South San Francisco, California
 
 Apr 2024 - Jan 2021
 
-- Earning +$1M in revenue in year 1 as _Tech Lead_ of Twist *Pan-Cancer Reference Standard*, an ISO-13485 synthetic control with 458 variants among 84 cancer-associated genes at six QC'd VAFs, plus a WT control, launched Nov. 2021
+- Earned +$1M in revenue in year 1 as _Tech Lead_ of Twist *Pan-Cancer Reference Standard*, an ISO-13485 synthetic control with 458 variants among 84 cancer-associated genes at six QC'd VAFs, plus a WT control, launched Nov. 2021
 - Identified and optimized compatible ddPCR assays using web scraping in `R` with `rvest` for cfDNA quality control
 - Automated data / QC reports with Python packages `Jinja2` (with `CSS`) and `WeasyPrint`, documented on Jira
 - Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq using bash tools like: `awk`, `grep`, `wget`, `ssh`, `GATK`, BaseSpace CLI, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`; Confluence documentation
-- Answered production and business questions with original `SQL` queries for `Snowflake`-based database.
+- Answered production and business questions with original `SQL` queries for `Snowflake`-based database
 
 
 
@@ -183,7 +183,7 @@ Emeryville, California
 Jan 2021 - Apr 2019
 
 - Boosted *NGS Core* genotyping success by 45% using DoE experimentation, data-driven decision-making, and teaching; Guided demanding and diverse internal customers on complex NGS experiments
-- Built and disseminated `Rmarkdown` notebook for autonomous NGS data exploration
+- Built and disseminated `Rmarkdown` and `JMP` statistical templates for autonomous NGS data exploration
 - Coded plasmid and strain build and QC experiments using Zymergen's alembic Python API to LIMS database
 - Rendered strain build and plasmid build reports from LIMS `SQL` database in `MySQL` Workbench
 
