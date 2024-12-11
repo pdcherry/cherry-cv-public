@@ -68,7 +68,7 @@ CV$text_blocks <- filter(CV$text_blocks, resume_type == resume_type_setting | is
 replace_lookup_tbl <- read_csv("CV_data/info_replace_public.csv", show_col_types = FALSE)
 
 CV$contact_info %<>%
-  left_join(replace_lookup_tbl, by = c("loc", "contact" = "contact_private")) %>%
+  left_join(replace_lookup_tbl, by = c("loc")) %>%
   mutate("contact" = if_else(!is.na(contact_public), contact_public, contact)) %>%
   select(!contact_public)
 ```
