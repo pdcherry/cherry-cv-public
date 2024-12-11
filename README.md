@@ -35,7 +35,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2024-07-30.
+Last updated on 2024-12-10.
 
 Data-driven résumé made in R using Quarto.
 
@@ -98,17 +98,33 @@ learn from my peers and in turn teach others.
 
 </div>
 
+### Senior Scientist, Oncology
+
+BillionToOne
+
+Menlo Park, CA
+
+Current - Sep 2024
+
+- Generated 500+ automated ddPCR primer / probe designs with pipeline in
+  `snakemake` using `s3` database of variant data and `primer3` primer
+  selection
+- Informed key product decisions with historical analyses using
+  PostgreSQL / ssh and s3 data sources and linear mixed-effects modeling
+
 ### Senior Scientist, Genomics
 
 Twist Bioscience
 
 South San Francisco, California
 
-Apr 2024 - Nov 2021
+Apr 2024 - Jan 2021
 
-- Produced \$1M+ in new revenue as *Tech Lead* on invention and launch
-  of: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion
-  Controls*, *Fragmentome Controls*, and RNA-seq
+- Invented and introduced multiple new products to market, yielding
+  \$1M+ in new revenue as *Tech Lead*, including: *Pan-cancer cfDNA* (v1
+  & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*,
+  RNA-seq, and primer / adapter removal methods for highly-multiplexed
+  dsDNA pools
 - Answered biological and business questions with
   [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html)
   and data analysis using `R` and the libraries: `dplyr`, `dbplyr`,
@@ -122,36 +138,17 @@ Apr 2024 - Nov 2021
 - Edited and maintained production QC pipelines with automated reporting
   using `Python` and the libraries: `NumPy`, `pandas`, `polars`,
   `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`,
-  `scanpy`, and others
+  `scanpy`, `Jinja2` (with `CSS`), `WeasyPrint`,and others
 - Maintained production code (`git` version control with code review)
   with CD (github actions); operated in high-performance compute
   environment `aws` `s3` and `Databricks` using Unix shell / `bash`
-  tools, like `STAR-fusion`
+  tools, like `ssh`, `STAR-fusion`, `GATK`, BaseSpace CLI, `bwa`,
+  `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`; Confluence
+  documentation
 - Authored internal `R` package
   “[`twistcolorpal`](https://github.com/pdcherry/twistcolorpal)” on
   Github with help files to help scientists style plots to Twist
   branding
-
-### Scientist, Genomics
-
-Twist Bioscience
-
-South San Francisco, California
-
-Apr 2024 - Jan 2021
-
-- Earned +\$1M in revenue in year 1 as *Tech Lead* of Twist *Pan-Cancer
-  Reference Standard*, an ISO-13485 synthetic control with 458 variants
-  among 84 cancer-associated genes at six QC’d VAFs, plus a WT control,
-  launched Nov. 2021
-- Identified and optimized compatible ddPCR assays using web scraping in
-  `R` with `rvest` for cfDNA quality control
-- Automated data / QC reports with Python packages `Jinja2` (with `CSS`)
-  and `WeasyPrint`, documented on Jira
-- Managed data and ran bioinformatic analyses on Illumina RNA & DNA seq
-  using bash tools like: `awk`, `grep`, `wget`, `ssh`, `GATK`, BaseSpace
-  CLI, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`;
-  Confluence documentation
 - Answered production and business questions with original `SQL` queries
   for `Snowflake`-based database
 
