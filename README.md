@@ -1,18 +1,28 @@
-# Patrick Cherry’s CV
+# CV of Patrick Cherry, PhD
 
 
 [ Download resume version as pdf](Patrick-Cherry-resume.pdf)
 
 <!-- Note to self: if the error shows up: -->
+
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
+
 <!-- re-type the sptring to avoid non-ASCII characters -->
+
 <!-- see https://stackoverflow.com/questions/76680882/unable-to-translate-to-a-wide-string -->
+
 <!-- :::: {.print-only .contact-block} -->
+
 <!-- Patrick Cherry {#title} -->
+
 <!-- -------------------------------------------------------------------------------- -->
+
 <!-- ```{r display contact info print} -->
+
 <!-- CV %>% print_contact_info() -->
+
 <!-- ``` -->
+
 <!-- :::: -->
 
 <div class="no-print">
@@ -35,7 +45,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2024-12-10.
+Last updated on 2024-12-20.
 
 Data-driven résumé made in R using Quarto.
 
@@ -46,6 +56,8 @@ Data-driven résumé made in R using Quarto.
 </div>
 
 </div>
+
+<div class="justify">
 
 PhD scientist and professional critical thinker, problem-solver, and
 science communicator. At the interface of data science, genomics, and
@@ -58,34 +70,7 @@ Originally trained in Molecular Biology, I am passionate about advancing
 data science and bioinformatics to improve human health and to
 understand biology.
 
-##  Education
-
-### PhD
-
-University of Colorado School of Medicine
-
-Aurora/Denver, Colorado
-
-May 2019 - Aug 2013
-
-- Ph.D. in Molecular Biology. Advisor: Jay Hesselberth, PhD
-- Thesis: RNA terminus chemistry impact decay events that target *HAC1*
-  mRNA during the Unfolded Protein Response
-
-### BA
-
-Hendrix College
-
-Conway, Arkansas
-
-May 2013 - Aug 2009
-
-- Biochemistry and Molecular Biology, with Distinction. Advisor: Andres
-  Caro, PhD
-- Senior Capstone Project showing key stress response gene expression
-  changes to oxidative stress in liver cells
-- Minor in Mathematics; PI: Lars Seme; Project: Newton’s method as a
-  fractal chaotic dynamical system
+</div>
 
 ##  Industry Experience
 
@@ -169,6 +154,35 @@ Jan 2021 - Apr 2019
   alembic Python API to LIMS database
 - Rendered strain build and plasmid build reports from LIMS `SQL`
   database in `MySQL` Workbench
+
+##  Education
+
+### PhD
+
+University of Colorado School of Medicine
+
+Aurora/Denver, Colorado
+
+May 2019 - Aug 2013
+
+- Ph.D. in Molecular Biology. Advisor: Jay Hesselberth, PhD
+- Thesis: RNA terminus chemistry impact decay events that target *HAC1*
+  mRNA during the Unfolded Protein Response
+
+### BA
+
+Hendrix College
+
+Conway, Arkansas
+
+May 2013 - Aug 2009
+
+- Biochemistry and Molecular Biology, with Distinction. Advisor: Andres
+  Caro, PhD
+- Senior Capstone Project showing key stress response gene expression
+  changes to oxidative stress in liver cells
+- Minor in Mathematics; PI: Lars Seme; Project: Newton’s method as a
+  fractal chaotic dynamical system
 
 ##  Research Experience
 

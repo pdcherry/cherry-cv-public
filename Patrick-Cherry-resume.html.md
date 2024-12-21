@@ -1,6 +1,6 @@
 ---
-title: "Patrick Cherry's CV"
-position: "Senior Scientist | Genomics"
+title: "CV of Patrick Cherry, PhD"
+position: "Senior Scientist | Oncology R&D"
 address: "San Francisco, California"
 # profilepic:
 www: "pdcherry.github.io"
@@ -85,7 +85,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2024-12-10.
+Last updated on 2024-12-20.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -96,41 +96,20 @@ Data-driven résumé made in R using Quarto.
 
 
 
+<style type="text/css">
+.justify {
+  text-align: justify !important
+}
+</style>
+
+
+::: {.justify}
+
+
 PhD scientist and professional critical thinker, problem-solver, and science communicator. At the interface of data science, genomics, and statistics; skilled at data visualization, bioinformatics, next-generation sequencing (NGS), and tool-building. I've coded reproducible pipelines for high-throughput experimental designs and genomic analyses. I've launched best-in-class oncology reference standards and analyzed NGS data from Illumina, MGI, and Element. Originally trained in Molecular Biology, I am passionate about advancing data science and bioinformatics to improve human health and to understand biology.
 
 
-
-{{< fa graduation-cap >}} Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-
-### PhD
-
-University of Colorado School of Medicine
-
-Aurora/Denver, Colorado
-
-May 2019 - Aug 2013
-
-- Ph.D. in Molecular Biology. Advisor: Jay Hesselberth, PhD
-- Thesis: RNA terminus chemistry impact decay events that target *HAC1* mRNA during the Unfolded Protein Response
-
-
-
-### BA
-
-Hendrix College
-
-Conway, Arkansas
-
-May 2013 - Aug 2009
-
-- Biochemistry and Molecular Biology, with Distinction. Advisor: Andres Caro, PhD
-- Senior Capstone Project showing key stress response gene expression changes to oxidative stress in liver cells
-- Minor in Mathematics; PI: Lars Seme; Project: Newton's method as a fractal chaotic dynamical system
-
-
-
+:::
 {{< fa suitcase >}} Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ::: aside
@@ -184,6 +163,37 @@ Jan 2021 - Apr 2019
 - Built and disseminated `Rmarkdown` and `JMP` statistical templates for autonomous NGS data exploration
 - Coded plasmid and strain build and QC experiments using Zymergen's alembic Python API to LIMS database
 - Rendered strain build and plasmid build reports from LIMS `SQL` database in `MySQL` Workbench
+
+
+
+{{< fa graduation-cap >}} Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+
+### PhD
+
+University of Colorado School of Medicine
+
+Aurora/Denver, Colorado
+
+May 2019 - Aug 2013
+
+- Ph.D. in Molecular Biology. Advisor: Jay Hesselberth, PhD
+- Thesis: RNA terminus chemistry impact decay events that target *HAC1* mRNA during the Unfolded Protein Response
+
+
+
+### BA
+
+Hendrix College
+
+Conway, Arkansas
+
+May 2013 - Aug 2009
+
+- Biochemistry and Molecular Biology, with Distinction. Advisor: Andres Caro, PhD
+- Senior Capstone Project showing key stress response gene expression changes to oxidative stress in liver cells
+- Minor in Mathematics; PI: Lars Seme; Project: Newton's method as a fractal chaotic dynamical system
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Patrick Cherry's CV"
-position: "Senior Scientist | Genomics"
+title: "CV of Patrick Cherry, PhD"
+position: "Senior Scientist | Oncology R&D"
 address: "San Francisco, California"
 # profilepic:
 www: "pdcherry.github.io"
@@ -128,17 +128,17 @@ Data-driven résumé made in R using Quarto.
 ::::
 :::
 
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+::: {.justify}
 ```{r intro section}
 # Note the special double pipe so we modify the CV object in place
 CV %<>% print_text_block('intro') 
 ```
-
-{{< fa graduation-cap >}} Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-```{r education data}
-CV %<>% print_section('education')
-```
-
+:::
 {{< fa suitcase >}} Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ::: aside
@@ -148,6 +148,12 @@ CV %<>% print_text_block('industy_experience_aside')
 :::
 ```{r industry_ positions data}
 CV %<>% print_section('industry_positions')
+```
+
+{{< fa graduation-cap >}} Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+```{r education data}
+CV %<>% print_section('education')
 ```
 
 {{< fa flask >}} Research Experience {data-icon=flask}

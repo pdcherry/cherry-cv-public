@@ -1,5 +1,5 @@
 ---
-title: "Patrick Cherry's Resume"
+title: "Patrick Cherry, PhD"
 # author: Patrick Cherry
 # date: !r format(Sys.time(), '%B %Y')
 position: "Senior Scientist | NGS | Twist Bioscience"
@@ -68,7 +68,7 @@ CV$text_blocks <- filter(CV$text_blocks, resume_type == resume_type_setting | is
 
 Main
 ================================================================================
-Patrick Cherry {#title}
+Patrick Cherry, PhD {#title}
 --------------------------------------------------------------------------------
 
 ```{r display contact info}
@@ -97,16 +97,16 @@ if(params$pdf_mode) {
 CV %<>% print_text_block('intro')
 ```
 
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-```{r education data}
-CV %<>% print_section('education')
-```
-
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ```{r industry_ positions data}
 CV %<>% print_section('industry_positions')
+```
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+```{r education data}
+CV %<>% print_section('education')
 ```
 
 <!-- Research Experience {data-icon=flask} -->
