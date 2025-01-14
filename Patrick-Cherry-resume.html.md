@@ -85,7 +85,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2024-12-20.
+Last updated on 2025-01-14.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -106,10 +106,10 @@ Data-driven résumé made in R using Quarto.
 ::: {.justify}
 
 
-PhD scientist and professional critical thinker, problem-solver, and science communicator. At the interface of data science, genomics, and statistics; skilled at data visualization, bioinformatics, next-generation sequencing (NGS), and tool-building. I've coded reproducible pipelines for high-throughput experimental designs and genomic analyses. I've launched best-in-class oncology reference standards and analyzed NGS data from Illumina, MGI, and Element. Originally trained in Molecular Biology, I am passionate about advancing data science and bioinformatics to improve human health and to understand biology.
+PhD scientist and professional critical thinker, problem-solver, and science communicator. At the interface of data science, genomics, and statistics; skilled at data visualization, bioinformatics, next-generation sequencing (NGS), and tool-building. I am passionate about advancing data science and bioinformatics to improve human health and to understand biology.
 
 
-:::
+::: 
 {{< fa suitcase >}} Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ::: aside
@@ -123,28 +123,29 @@ I currently split my time between wet lab and computational activities. I have w
 
 ### Senior Scientist, Oncology
 
-BillionToOne
+BillionToOne, Inc.
 
 Menlo Park, CA
 
 Current - Sep 2024
 
-- Generated 500+ automated ddPCR primer / probe designs with pipeline in `snakemake` using `s3` database of variant data and `primer3` primer selection
-- Informed key product decisions with historical analyses using PostgreSQL / ssh and s3 data sources and linear mixed-effects modeling
+- Designed and implemented multiplexed amplicon NGS assay with `Bioconductor` NCBI tools and `primer3` primer selection; generated 500+ automated ddPCR designs with pipeline in `snakemake` using `s3` database of variant data.
+- Informed key product decisions with analyses using PostgreSQL and s3 data sources and linear mixed-effects modeling
+- Circulated internal research reports on Notion written in Quarto notebooks with reproducible Python and R code.
 
 
 
 ### Senior Scientist, Genomics
 
-Twist Bioscience
+Twist Bioscience, Inc.
 
 South San Francisco, California
 
-Apr 2024 - Jan 2021
+Apr 2024 - Dec 2021
 
 - Invented and introduced multiple new products to market, yielding $1M+ in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*, RNA-seq, and primer / adapter removal methods for highly-multiplexed dsDNA pools
-- Answered biological and business questions with [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html) and data analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, [`DEseq2`](https://pdcherry.github.io/posts/2024_01_03-GTEX_RNA_seq_liver.html), [`seurat`](https://pdcherry.github.io/posts/2024_01_22-scRNA-seq.html), [`tidymodels`](https://pdcherry.github.io/posts/2024_02_10-SF_tree_classification.html), `glm`, `nls`, `lme4`, [`AlgDesign`](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html), and more
-- Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, `Jinja2` (with `CSS`), `WeasyPrint`,and others
+- Answered biological and business questions with [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html) and data analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, [`DEseq2`](https://pdcherry.github.io/posts/2024_01_03-GTEX_RNA_seq_liver.html), [`Seurat`](https://pdcherry.github.io/posts/2024_01_22-scRNA-seq.html), [`tidymodels`](https://pdcherry.github.io/posts/2024_02_10-SF_tree_classification.html), `glm`, `nls`, `lme4`, [`AlgDesign`](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html), and more
+- Wrote and published reports in Rmarkdown and LaTeX. Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, `Jinja2` (with `CSS`), `WeasyPrint`, and others
 - Maintained production code (`git` version control with code review) with CD (github actions); operated in high-performance compute environment `aws` `s3` and `Databricks` using  Unix shell / `bash` tools, like `ssh`, `STAR-fusion`, `GATK`, BaseSpace CLI, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`; Confluence documentation
 - Authored internal `R` package "[`twistcolorpal`](https://github.com/pdcherry/twistcolorpal)" on Github with help files to help scientists style plots to Twist branding
 - Answered production and business questions with original `SQL` queries for `Snowflake`-based database
@@ -176,10 +177,11 @@ University of Colorado School of Medicine
 
 Aurora/Denver, Colorado
 
-May 2019 - Aug 2013
+Apr 2019 - Aug 2013
 
 - Ph.D. in Molecular Biology. Advisor: Jay Hesselberth, PhD
 - Thesis: RNA terminus chemistry impact decay events that target *HAC1* mRNA during the Unfolded Protein Response
+- Key courses: BIOS 6606 Statistics for Basic Sciences; MOLB 7621 Genome Analysis Workshop.
 
 
 
@@ -193,7 +195,7 @@ May 2013 - Aug 2009
 
 - Biochemistry and Molecular Biology, with Distinction. Advisor: Andres Caro, PhD
 - Senior Capstone Project showing key stress response gene expression changes to oxidative stress in liver cells
-- Minor in Mathematics; PI: Lars Seme; Project: Newton's method as a fractal chaotic dynamical system
+- Key courses: MATH 310 Probability & Statistics; MATH 240 Discrete Mathematics; CHEM 335 Adv Biological Chemistry.
 
 
 
@@ -214,7 +216,7 @@ University of Colorado School of Medicine
 
 Aurora/Denver, Colorado
 
-May 2019 - May 2014
+Apr 2019 - May 2014
 
 - Wrote, revised, & published two academic papers on RNA repair & yeast genetics
 - Engineered and characterized *genetic bypass of essential genes* in budding yeast; on-boarded CRISPR/*Cas9* for efficient and precise gene knock-in and scarless knock-out
