@@ -85,7 +85,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2025-01-14.
+Last updated on 2025-02-04.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -125,7 +125,7 @@ I currently split my time between wet lab and computational activities. I have w
 
 BillionToOne, Inc.
 
-Menlo Park, CA
+Menlo Park, California
 
 Current - Sep 2024
 
@@ -163,7 +163,7 @@ Jan 2021 - Apr 2019
 - Boosted *NGS Core* genotyping success by 45% using DoE experimentation, data-driven decision-making, and teaching; Guided demanding and diverse internal customers on complex NGS experiments
 - Built and disseminated `Rmarkdown` and `JMP` statistical templates for autonomous NGS data exploration
 - Coded plasmid and strain build and QC experiments using Zymergen's alembic Python API to LIMS database
-- Rendered strain build and plasmid build reports from LIMS `SQL` database in `MySQL` Workbench
+- Rendered strain build and plasmid build reports from LIMS `SQL` database in `MySQL` and R / `ggplot`
 
 
 
@@ -171,7 +171,7 @@ Jan 2021 - Apr 2019
 --------------------------------------------------------------------------------
 
 
-### PhD
+### PhD in Molecular Biology
 
 University of Colorado School of Medicine
 
@@ -180,12 +180,12 @@ Aurora/Denver, Colorado
 Apr 2019 - Aug 2013
 
 - Ph.D. in Molecular Biology. Advisor: Jay Hesselberth, PhD
-- Thesis: RNA terminus chemistry impact decay events that target *HAC1* mRNA during the Unfolded Protein Response
-- Key courses: BIOS 6606 Statistics for Basic Sciences; MOLB 7621 Genome Analysis Workshop.
+- Thesis: RNA terminus chemistry potentiates decay events targeting *HAC1* mRNA during the Unfolded Protein Response
+- Key courses: BIOS 6606 Statistics; MOLB 7621 Genome Analysis Workshop.
 
 
 
-### BA
+### BA in Molecular Biology with Distinction, minor in Mathematics
 
 Hendrix College
 
@@ -193,9 +193,8 @@ Conway, Arkansas
 
 May 2013 - Aug 2009
 
-- Biochemistry and Molecular Biology, with Distinction. Advisor: Andres Caro, PhD
-- Senior Capstone Project showing key stress response gene expression changes to oxidative stress in liver cells
-- Key courses: MATH 310 Probability & Statistics; MATH 240 Discrete Mathematics; CHEM 335 Adv Biological Chemistry.
+- Senior Capstone Project showing changes of key stress response gene expression to oxidative stress in liver cells
+- Key courses: Probability & Statistics; Discrete Mathematics; Adv Biological Chemistry, Analytical Chemistry
 
 
 
