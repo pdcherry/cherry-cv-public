@@ -85,7 +85,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2025-02-04.
+Last updated on 2025-07-23.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -129,9 +129,12 @@ Menlo Park, California
 
 Current - Sep 2024
 
+- Ideated, coded, and validated patented method for tumor fraction estimation from plasma aneuploidy data using Gaussian mixture models (`mclust`), custom model selection metric, and custom consensus logic.
 - Designed and implemented multiplexed amplicon NGS assay with `Bioconductor` NCBI tools and `primer3` primer selection; generated 500+ automated ddPCR designs with pipeline in `snakemake` using `s3` database of variant data.
+- Wrote custom Nextflow pipeline for RNA-seq data analysis with automated quality control reporting.
 - Informed key product decisions with analyses using PostgreSQL and s3 data sources and linear mixed-effects modeling
-- Circulated internal research reports on Notion written in Quarto notebooks with reproducible Python and R code.
+- Influenced leadership with internal research reports on Notion written in Quarto with reproducible Python and R code.
+- Hired four Research Associates; managed the Statistics interview and collaborated in Roundtable hiring decisions.
 
 
 
@@ -143,11 +146,10 @@ South San Francisco, California
 
 Apr 2024 - Dec 2021
 
-- Invented and introduced multiple new products to market, yielding $1M+ in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*, RNA-seq, and primer / adapter removal methods for highly-multiplexed dsDNA pools
+- Invented and introduced multiple new products to market, yielding $1M+ in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*, RNA-seq, and  adapter removal
 - Answered biological and business questions with [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html) and data analysis using `R` and the libraries: `dplyr`, `dbplyr`, `DBI`, `purrr`, `ggplot2`, `Bioconductor`, [`DEseq2`](https://pdcherry.github.io/posts/2024_01_03-GTEX_RNA_seq_liver.html), [`Seurat`](https://pdcherry.github.io/posts/2024_01_22-scRNA-seq.html), [`tidymodels`](https://pdcherry.github.io/posts/2024_02_10-SF_tree_classification.html), `glm`, `nls`, `lme4`, [`AlgDesign`](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html), and more
-- Wrote and published reports in Rmarkdown and LaTeX. Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `biopython`, `pybedtools`, `pysam`, `vcfpy`, `scanpy`, `Jinja2` (with `CSS`), `WeasyPrint`, and others
+- Wrote and published reports in Rmarkdown and LaTeX. Edited and maintained production QC pipelines with automated reporting using `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`, `statsmodels`, `Jinja2` (with `CSS`), `WeasyPrint`, and others
 - Maintained production code (`git` version control with code review) with CD (github actions); operated in high-performance compute environment `aws` `s3` and `Databricks` using  Unix shell / `bash` tools, like `ssh`, `STAR-fusion`, `GATK`, BaseSpace CLI, `bwa`, `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`; Confluence documentation
-- Authored internal `R` package "[`twistcolorpal`](https://github.com/pdcherry/twistcolorpal)" on Github with help files to help scientists style plots to Twist branding
 - Answered production and business questions with original `SQL` queries for `Snowflake`-based database
 
 
@@ -270,6 +272,19 @@ Working at Twist and Zymergen on new product research requires confidentiality, 
 :::
 
 
+### Liquid biopsy assay for genomic profiling of circulating tumor DNA
+
+BillionToOne, Inc.
+
+Menlo Park, California
+
+Jan 2025
+
+- US Patent Application 19/033,133
+- Invention of tumor fraction estimation / in-tissue copy number estimation from aneuploidy signal in plasma
+
+
+
 ### Methylation-mediated adapter removal on nucleic acid sequences
 
 Twist Bioscience
@@ -278,6 +293,7 @@ South San Francisco, California
 
 Mar 2023
 
+- [Worldwide Patent WO2023172520A2](https://patents.google.com/patent/WO2023172520A2/(https://patents.google.com/patent/WO2023172520A2/)
 - US 63-317,466
 
 
@@ -302,7 +318,7 @@ South San Francisco, California
 
 Apr 2021
 
-- US Prov. Pat. Ref No 823.101
+- [Worldwide Patent WO2024073708A1](https://patents.google.com/patent/WO2024073708A1/)
 - Configuration and fabrication of synthetic DNA & RNA reference standards and synthetic variant sequences
 
 
@@ -315,7 +331,7 @@ Emeryville, California
 
 Mar 2021
 
-- US 2021_0087586 A1
+- [Worldwide Patent WO2021061694A1](https://patents.google.com/patent/WO2021061694A1/) / US 2021_0087586 A1
 - Demonstration of novel counterselection mechanism in non-model *Bacillus* microbe for genetic modification
 
 
@@ -403,6 +419,19 @@ I give audience-centered presentations by adapting on the fly and over time to t
 :::
 
 
+### Tumor fraction estimation and tissue copy number inference using copy number signal from liquid biopsy
+
+[American Association for Cancer Researchers](
+https://doi.org/10.1158/1538-7445.AM2025-4563)
+
+Chicago, Illinois
+
+Apr 2025
+
+- Patrick Cherry, Wen Zhou, David Tsao
+
+
+
 ### Twist pan-cancer reference standard V2: Enhanced precision and reduced errors in ctDNA analysis
 
 [Advances in Genome Biology and Technology](https://www.biospace.com/twist-bioscience-unveils-differentiated-ultra-high-throughput-library-preparation-solution-at-agbt), [Twist Bioscience](https://www.twistbioscience.com/resources/poster/twist-pan-cancer-reference-standards-v2-enhanced-precision-and-reduced-errors)
@@ -423,7 +452,7 @@ Madrid, Spain
 
 Nov 2023
 
-- Tina Han, Tong Liu, Michael Bocek, _Patrick Cherry_, Shawn Gorda, Nairi Pezeshkian, Dan Nasko, Po-Yuan Tung, Derek Murphy, and Esteban Toro
+- Tina Han, Tong Liu, Michael Bocek, _Patrick Cherry_, Shawn Gorda, Nairi Pezeshkian, Dan Nasko, Po-Yuan Tung, Derek Murphy, Esteban Toro
 
 
 
@@ -435,7 +464,7 @@ Orlando, Florida
 
 Apr 2023
 
-- Tong Liu, Michael Bocek, _Patrick Cherry_, Shawn Gorda, Jean Challacombe, Derek Murphy and Esteban Toro
+- Tong Liu, Michael Bocek, _Patrick Cherry_, Shawn Gorda, Jean Challacombe, Derek Murphy, Esteban Toro
 
 
 
@@ -507,7 +536,7 @@ Vienna, Austria
 
 May 2022
 
-- Michael Bocek, Lydia Bonar, Jean Challacombe, Richard Gantt, _Patrick Cherry_, Rebecca Liao, Derek Murphy and Esteban Toro
+- Michael Bocek, Lydia Bonar, Jean Challacombe, Richard Gantt, _Patrick Cherry_, Rebecca Liao, Derek Murphy, Esteban Toro
 
 
 
@@ -519,7 +548,7 @@ New Orleans, Louisiana
 
 Apr 2022
 
-
+- Patrick Cherry, Alonzo Lee, Michael Bocek, Jinfeng Shen, Derek Murphy, Esteban Toro
 
 
 
@@ -807,6 +836,18 @@ While I've not held a role with "manager" in the title, all Scientist positions 
 
 
 ::::
+
+
+### Laura Herron, MS, University of California San Diego, Research Associate
+
+BillionToOne, Inc.
+
+Menlo Park, California
+
+Current - Jan 2025
+
+
+
 
 
 ### Derek Cai, BS, University of California San Diego, Research Associate I
