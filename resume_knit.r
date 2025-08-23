@@ -17,7 +17,7 @@ fs::file_copy("~/cherry-cv/CV_data/entries.csv",
 rmarkdown::render("Patrick-Cherry-brief-resume.rmd",
                   params = list(is_resume = TRUE,
                                 output_format = "pagedown",
-                                resume_type_param = "bfx",
+                                resume_type_param = "data",
                                 pdf_mode = FALSE),
                   output_file = "Patrick-Cherry-resume.html")
 
@@ -26,7 +26,8 @@ pagedown::chrome_print(input = "Patrick-Cherry-resume.html",
                        format = "pdf",
                        output = paste0("Patrick-Cherry-resume",
                                        #" ", format(Sys.Date(), '%B %Y'),
-                                       ".pdf"))
+                                       ".pdf"),
+                       scale = 0.98)
 
 fs::file_delete("Patrick-Cherry-resume.html")
 

@@ -45,7 +45,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2025-07-23.
+Last updated on 2025-08-23.
 
 Data-driven résumé made in R using Quarto.
 
@@ -59,12 +59,12 @@ Data-driven résumé made in R using Quarto.
 
 <div class="justify">
 
-PhD scientist and professional critical thinker, problem-solver, and
-science communicator. At the interface of data science, genomics, and
-statistics; skilled at data visualization, bioinformatics,
-next-generation sequencing (NGS), and tool-building. I am passionate
-about advancing data science and bioinformatics to improve human health
-and to understand biology.
+PhD data scientist and professional tool-builder and science
+communicator. I bring the incisive critical thinking of an
+-omics-trained scientist to data science. Skilled at data visualization,
+pipeline building, and custom tool building and validation. I am
+dedicated to serving as the bridge between complex data problems and
+action-oriented leadership seeking data-driven strategy.
 
 </div>
 
@@ -72,10 +72,10 @@ and to understand biology.
 
 <div class="aside">
 
-I currently split my time between wet lab and computational activities.
-I have worked in a variety of roles ranging from HTP strain onboarding
-to genomics scientist. I like collaborative environments where I can
-learn from my peers and in turn teach others.
+I currently split my time between computational, wet-lab, and management
+activities. I have worked in a variety of roles ranging from HTP strain
+onboarding to genomics scientist. I like collaborative environments
+where I can learn from my peers and–in turn–teach others.
 
 </div>
 
@@ -87,21 +87,24 @@ Menlo Park, California
 
 Current - Sep 2024
 
-- Ideated, coded, and validated patented method for tumor fraction
-  estimation from plasma aneuploidy data using Gaussian mixture models
-  (`mclust`), custom model selection metric, and custom consensus logic.
-- Designed and implemented multiplexed amplicon NGS assay with
-  `Bioconductor` NCBI tools and `primer3` primer selection; generated
-  500+ automated ddPCR designs with pipeline in `snakemake` using `s3`
-  database of variant data.
-- Wrote custom Nextflow pipeline for RNA-seq data analysis with
-  automated quality control reporting.
-- Informed key product decisions with analyses using PostgreSQL and s3
-  data sources and linear mixed-effects modeling
-- Influenced leadership with internal research reports on Notion written
-  in Quarto with reproducible Python and R code.
-- Hired four Research Associates; managed the Statistics interview and
-  collaborated in Roundtable hiring decisions.
+- Implemented department-wide copy number database using
+  extract-transform-load (ETL) procedure on production data
+- Ideated, coded, and validated
+  [patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#liquid-biopsy-assay-for-genomic-profiling-of-circulating-tumor-dna)
+  method for tumor fraction estimation from plasma aneuploidy data using
+  Gaussian mixture models, custom model selection metric, and custom
+  consensus logic
+- Solved DNA variant detection sensitivity issue by designing and
+  implementing a multiplexed amplicon NGS assay with public data sets
+  and internal database of variant data
+- Productionized RNA-seq by writing a custom Nextflow pipeline for
+  analysis and automated quality control reporting.
+- Answered business and product design questions from leadership about
+  un-met customer need with internal reports on Notion written in
+  reproducible coding notebooks using Python and R in a HIPAA-manner
+  environment
+- As hiring manager, recruited and hired four Research Associates;
+  managed the Statistics interview
 
 ### Senior Scientist, Genomics
 
@@ -113,32 +116,23 @@ Apr 2024 - Dec 2021
 
 - Invented and introduced multiple new products to market, yielding
   \$1M+ in new revenue as *Tech Lead*, including: *Pan-cancer cfDNA* (v1
-  & v2), *CNV Controls*, *RNA Fusion Controls*, *Fragmentome Controls*,
-  RNA-seq, and adapter removal
-- Answered biological and business questions with
-  [DoE](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html)
-  and data analysis using `R` and the libraries: `dplyr`, `dbplyr`,
-  `DBI`, `purrr`, `ggplot2`, `Bioconductor`,
-  [`DEseq2`](https://pdcherry.github.io/posts/2024_01_03-GTEX_RNA_seq_liver.html),
-  [`Seurat`](https://pdcherry.github.io/posts/2024_01_22-scRNA-seq.html),
-  [`tidymodels`](https://pdcherry.github.io/posts/2024_02_10-SF_tree_classification.html),
-  `glm`, `nls`, `lme4`,
-  [`AlgDesign`](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html),
-  and more
-- Wrote and published reports in Rmarkdown and LaTeX. Edited and
-  maintained production QC pipelines with automated reporting using
-  `Python` and the libraries: `NumPy`, `pandas`, `polars`, `seaborn`,
-  `statsmodels`, `Jinja2` (with `CSS`), `WeasyPrint`, and others
-- Maintained production code (`git` version control with code review)
-  with CD (github actions); operated in high-performance compute
-  environment `aws` `s3` and `Databricks` using Unix shell / `bash`
-  tools, like `ssh`, `STAR-fusion`, `GATK`, BaseSpace CLI, `bwa`,
-  `bedtools`, `samtools`, `vcftools`, `UMI-tools`/`fgbio`; Confluence
-  documentation
-- Answered production and business questions with original `SQL` queries
-  for `Snowflake`-based database
+  & v2)
+  ([patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#libraries-for-mutational-analysis)),
+  *CNV Controls*, *RNA Fusion Controls*, RNA-seq, and [patented adapter
+  removal](https://pdcherry.github.io/Patrick-Cherry-cv.html#methylation-mediated-adapter-removal-on-nucleic-acid-sequences)
+- Answered feasibility questions with [Design of
+  Experiment](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html)
+  principles and data analysis using `R` and `Python`.
+- Wrote, documented, and maintained production QC pipelines for
+  sub-components and finished good QC; trained end-users in
+  Manufacturing and Quality on their use, interpretation, and reporting.
+- Maintained production code (`git` version control with code review and
+  team best practices) with CD (Github actions); operated in AWS &
+  Databricks high-performance compute environment using Unix shell
+- Answered manufacturing & business questions using SQL / Snowflake
+  database of production events and customer data
 
-### Scientist I, NGS Core & Strain-Build Process Development
+### Scientist I, Next Generation Sequencing (NGS)
 
 Zymergen, Inc.
 
@@ -146,15 +140,17 @@ Emeryville, California
 
 Jan 2021 - Apr 2019
 
-- Boosted *NGS Core* genotyping success by 45% using DoE
-  experimentation, data-driven decision-making, and teaching; Guided
+- Boosted pan-project NGS genotyping success by 45% using [Design of
+  Experiment](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html)
+  and Estimated Marginal Means modeling for causal inference; Guided
   demanding and diverse internal customers on complex NGS experiments
-- Built and disseminated `Rmarkdown` and `JMP` statistical templates for
-  autonomous NGS data exploration
-- Coded plasmid and strain build and QC experiments using Zymergen’s
-  alembic Python API to LIMS database
+- Built and disseminated reproducible statistical templates in
+  `Rmarkdown` and `JMP` for self-serve NGS data exploration
 - Rendered strain build and plasmid build reports from LIMS `SQL`
-  database in `MySQL` and R / `ggplot`
+  database in `MariaDB` and R / `ggplot2`
+- Designed, built, and demonstrated a
+  [patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#method-for-counterselection-in-microorganisms)
+  counterselectable marker for the non-model microbe *Bacillus subtlis*
 
 ##  Education
 
@@ -166,10 +162,10 @@ Aurora/Denver, Colorado
 
 Apr 2019 - Aug 2013
 
-- Ph.D. in Molecular Biology. Advisor: Jay Hesselberth, PhD
+- Ph.D. in Molecular Biology. Advisor: Jay Hesselberth, PhD. Key
+  courses: 6606 Statistics; 7621 Genome Analysis Workshop.
 - Thesis: RNA terminus chemistry potentiates decay events targeting
   *HAC1* mRNA during the Unfolded Protein Response
-- Key courses: BIOS 6606 Statistics; MOLB 7621 Genome Analysis Workshop.
 
 ### BA in Molecular Biology with Distinction, minor in Mathematics
 
@@ -193,27 +189,6 @@ me to custom 5′-OH RNA-seq libraries, which inspired my fascination with
 transcriptomics and bioinformatics.
 
 </div>
-
-### Doctoral Research
-
-University of Colorado School of Medicine
-
-Aurora/Denver, Colorado
-
-Apr 2019 - May 2014
-
-- Wrote, revised, & published two academic papers on RNA repair & yeast
-  genetics
-- Engineered and characterized *genetic bypass of essential genes* in
-  budding yeast; on-boarded CRISPR/*Cas9* for efficient and precise gene
-  knock-in and scarless knock-out
-- Performed RNA-seq analysis with `bowtie2` on departmental cluster
-  using `bjobs` and visualization in R-Studio server
-- Optimized custom RNA-seq library protocol; independently planned,
-  executed, troubleshooted RNA modification detection
-- Routinely conducted northern blotting, targeted depletion, primer
-  extension, splinted ligation, and other esoteric DNA and RNA
-  experiments
 
 ### Undergraduate Research Assistant
 
@@ -243,10 +218,10 @@ Jan 2011 - Jan 2010
 
 <div class="aside">
 
-Working at Twist and Zymergen on new product research requires
-confidentiality, but public evidence of accomplishments often comes in
-patent applications. The Legal teams know me well for being a helpful
-expert in the process.
+Working at BillionToOne, Twist, and Zymergen on new product research
+requires confidentiality, but public evidence of accomplishments often
+comes in patent applications. The Legal teams know me well for being a
+helpful expert in the process.
 
 </div>
 
@@ -270,8 +245,8 @@ South San Francisco, California
 
 Mar 2023
 
-- \[Worldwide Patent
-  WO2023172520A2\](https://patents.google.com/patent/WO2023172520A2/(https://patents.google.com/patent/WO2023172520A2/)
+- [Worldwide Patent
+  WO2023172520A2](https://patents.google.com/patent/WO2023172520A2/)
 - US 63-317,466
 
 ### Expansion of cfDNA for Libraries
@@ -719,7 +694,7 @@ Jan 2013
 <div class="aside">
 
 While I’ve not held a role with “manager” in the title, all Scientist
-positions I’ve accepted have involved formal report management
+positions I’ve held have involved formal report management
 responsibility. I take managing and mentoring seriously; I emphasize
 trust, learning, and growth with my reports.
 

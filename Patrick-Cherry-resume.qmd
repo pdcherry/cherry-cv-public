@@ -1,13 +1,14 @@
 ---
-title: "CV of Patrick Cherry, PhD"
-position: "Senior Scientist | Oncology R&D"
-address: "San Francisco, California"
+title: CV of Patrick Cherry, PhD
+# for html generation for website
+position: Senior Scientist | Oncology R&D
+address: San Francisco, California
 # profilepic:
-www: "pdcherry.github.io"
+www: pdcherry.github.io
 github: pdcherry
 linkedin: p-cherry
-orcid: "0000-0001-6421-2035"
-googlescholar: "TVHw14oAAAAJ"
+orcid: 0000-0001-6421-2035
+googlescholar: TVHw14oAAAAJ
 headcolor: 414141
 params:
   pdf_mode:
