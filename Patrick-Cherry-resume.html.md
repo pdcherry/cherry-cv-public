@@ -72,12 +72,12 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
- - {{< fa envelope >}}&nbsp;pcherry [at] pm dot me
+ - {{< fa envelope >}}&nbsp;patrick [at] pcherry dot io
  - {{< fa phone >}}&nbsp;upon request
  - {{< fa suitcase >}}&nbsp;Senior Scientist | Oncology
  - {{< fa building >}}&nbsp;BillionToOne
  - {{< fa map >}}&nbsp;San Francisco, California
- - {{< fa globe-americas >}}&nbsp;[pdcherry.github.io](https://pdcherry.github.io)
+ - {{< fa globe-americas >}}&nbsp;[pcherry.io](https://pcherry.io)
  - {{< fa brands github >}}&nbsp;[github.com/pdcherry](https://github.com/pdcherry)
  - {{< fa brands linkedin >}}&nbsp;[linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
  - {{< fa id-card >}}&nbsp;United States Citizen
@@ -86,7 +86,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2025-08-23.
+Last updated on 2025-11-15.
 
 Data-driven résumé made in R using Quarto.
 ::::::

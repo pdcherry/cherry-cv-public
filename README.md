@@ -33,19 +33,19 @@
 
 ## Contact
 
--  pcherry \[at\] pm dot me
+-  patrick \[at\] pcherry dot io
 -  upon request
 -  Senior Scientist \| Oncology
 -  BillionToOne
 -  San Francisco, California
--  [pdcherry.github.io](https://pdcherry.github.io)
+-  [pcherry.io](https://pcherry.io)
 -  [github.com/pdcherry](https://github.com/pdcherry)
 -  [linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
 -  United States Citizen
 
 <div class="disclaimer">
 
-Last updated on 2025-08-23.
+Last updated on 2025-11-15.
 
 Data-driven résumé made in R using Quarto.
 
