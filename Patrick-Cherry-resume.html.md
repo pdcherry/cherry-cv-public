@@ -26,33 +26,24 @@ execute:
   freeze: true
 ---
 
-
-
-
 [{{< fa file-pdf >}} Download resume version as pdf](Patrick-Cherry-resume.pdf)
 
 
-
 ::: {.cell}
 
 :::
 
+
+
 ::: {.cell}
 
 :::
-
 
 
 <!-- Note to self: if the error shows up: -->
 <!-- In grepl("^\\s*$", x) : unable to translate to a wide string -->
 <!-- re-type the sptring to avoid non-ASCII characters -->
 <!-- see https://stackoverflow.com/questions/76680882/unable-to-translate-to-a-wide-string -->
-
-
-
-
-
-
 
 
 
@@ -70,8 +61,6 @@ execute:
 ::::: {.side-contact-list}
 Contact {#contact}
 --------------------------------------------------------------------------------
-
-
  - {{< fa envelope >}}&nbsp;patrick [at] pcherry dot io
  - {{< fa phone >}}&nbsp;upon request
  - {{< fa suitcase >}}&nbsp;Senior Scientist | Oncology
@@ -82,11 +71,9 @@ Contact {#contact}
  - {{< fa brands linkedin >}}&nbsp;[linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
  - {{< fa id-card >}}&nbsp;United States Citizen
 
-
-
 :::::: {.disclaimer}
 
-Last updated on 2025-11-15.
+Last updated on 2026-10-03.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -95,31 +82,29 @@ Data-driven résumé made in R using Quarto.
 ::::
 :::
 
-
-
 <style type="text/css">
 .justify {
   text-align: justify !important
 }
 </style>
-
-
 ::: {.justify}
-
-
 PhD data scientist and professional tool-builder and science communicator. I bring the incisive critical thinking of an -omics-trained scientist to data science. Skilled at data visualization, pipeline building, and custom tool building and validation. I am dedicated to serving as the bridge between complex data problems and action-oriented leadership seeking data-driven strategy.
-
-
 ::: 
 {{< fa suitcase >}} Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ::: aside
-
-
 I currently split my time between computational, wet-lab, and management activities. I have worked in a variety of roles ranging from HTP strain onboarding to genomics scientist. I like collaborative environments where I can learn from my peers and--in turn--teach others.
-
-
 :::
+### Principal Scientist, Oncology
+
+BillionToOne, Inc.
+
+Menlo Park, California
+
+Current - Oct 2026
+
+
+
 
 
 ### Senior Scientist, Oncology
@@ -128,13 +113,12 @@ BillionToOne, Inc.
 
 Menlo Park, California
 
-Current - Sep 2024
+Oct 2026 - Sep 2024
 
+- Tech lead and program manager for multi-quarter cfDNA genomics assay expansion (Select v3); led the launch and CAP/CLIA validation of Northstar Select Pharmacogenomics (PGx) in under two months
 - Implemented department-wide copy number database using extract-transform-load (ETL) procedure on production data
-- Ideated, coded, and validated [patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#liquid-biopsy-assay-for-genomic-profiling-of-circulating-tumor-dna) method for tumor fraction estimation from plasma aneuploidy data using Gaussian mixture models, custom model selection metric, and custom consensus logic
-- Solved DNA variant detection sensitivity issue by designing and implementing a multiplexed amplicon NGS assay with public data sets and internal database of variant data
-- Productionized RNA-seq by writing a custom Nextflow pipeline for analysis and automated quality control reporting.
-- Answered business and product design questions from leadership about un-met customer need with internal reports on Notion written in reproducible coding notebooks using Python and R in a HIPAA-manner environment
+- Ideated, coded, and validated [patented](https://pcherry.io/Patrick-Cherry-cv.html#liquid-biopsy-assay-for-genomic-profiling-of-circulating-tumor-dna) method for tumor fraction estimation from plasma aneuploidy data using Gaussian mixture models, custom model selection metric, and custom consensus logic
+- Answered business and product design questions from leadership about un-met customer need with internal reports on Notion written in reproducible coding notebooks using Python and R in a HIPAA-compliant environment
 - As hiring manager, recruited and hired four Research Associates; managed the Statistics interview
 
 
@@ -147,8 +131,8 @@ South San Francisco, California
 
 Apr 2024 - Dec 2021
 
-- Invented and introduced multiple new products to market, yielding $1M+ in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2) ([patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#libraries-for-mutational-analysis)), *CNV Controls*, *RNA Fusion Controls*, RNA-seq, and [patented adapter removal](https://pdcherry.github.io/Patrick-Cherry-cv.html#methylation-mediated-adapter-removal-on-nucleic-acid-sequences)
-- Answered feasibility questions with [Design of Experiment](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html) principles and data analysis using `R` and `Python`.
+- Invented and introduced multiple new products to market, yielding $1M+ in new revenue as _Tech Lead_, including: *Pan-cancer cfDNA* (v1 & v2) ([patented](https://pcherry.io/Patrick-Cherry-cv.html#libraries-for-mutational-analysis)), *CNV Controls*, *RNA Fusion Controls*, RNA-seq, and [patented adapter removal](https://pcherry.io/Patrick-Cherry-cv.html#methylation-mediated-adapter-removal-on-nucleic-acid-sequences)
+- Answered feasibility questions with [Design of Experiment](https://pcherry.io/posts/2024_04_05-DoE_design_of_experiment.html) principles and data analysis using `R` and `Python`.
 - Wrote, documented, and maintained production QC pipelines for sub-components and finished good QC; trained end-users in Manufacturing and Quality on their use, interpretation, and reporting.
 - Maintained production code (`git` version control with code review and team best practices) with CD (Github actions); operated in AWS & Databricks high-performance compute environment using Unix shell
 - Answered manufacturing & business questions using SQL / Snowflake database of production events and customer data
@@ -163,17 +147,13 @@ Emeryville, California
 
 Jan 2021 - Apr 2019
 
-- Boosted pan-project NGS genotyping success by 45% using [Design of Experiment](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html) and Estimated Marginal Means modeling for causal inference; Guided demanding and diverse internal customers on complex NGS experiments
+- Boosted pan-project NGS genotyping success by 45% using [Design of Experiment](https://pcherry.io/posts/2024_04_05-DoE_design_of_experiment.html) and Estimated Marginal Means modeling for causal inference; Guided demanding and diverse internal customers on complex NGS experiments
 - Built and disseminated reproducible statistical templates in `Rmarkdown` and `JMP` for self-serve NGS data exploration
 - Rendered strain build and plasmid build reports from LIMS `SQL` database in `MariaDB` and R / `ggplot2`
-- Designed, built, and demonstrated a [patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#method-for-counterselection-in-microorganisms) counterselectable marker for the non-model microbe *Bacillus subtlis*
-
-
+- Designed, built, and demonstrated a [patented](https://pcherry.io/Patrick-Cherry-cv.html#method-for-counterselection-in-microorganisms) counterselectable marker for the non-model microbe *Bacillus subtlis*
 
 {{< fa graduation-cap >}} Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
-
-
 ### PhD in Molecular Biology
 
 University of Colorado School of Medicine
@@ -198,19 +178,11 @@ May 2013 - Aug 2009
 - Senior Capstone Project showing changes of key stress response gene expression to oxidative stress in liver cells
 - Key courses: Probability & Statistics; Discrete Mathematics; Adv Biological Chemistry, Analytical Chemistry
 
-
-
 {{< fa flask >}} Research Experience {data-icon=flask}
 --------------------------------------------------------------------------------
 ::: aside
-
-
 I worked on a few projects during my PhD, and the RNA repair project led me to custom 5&prime;-OH RNA-seq libraries, which inspired my fascination with transcriptomics and bioinformatics.
-
-
 :::
-
-
 ### Undergraduate Research Assistant
 
 Lab of Dr. Andres Caro, Hendrix College
@@ -243,19 +215,11 @@ New Orleans, Louisiana
 
 Jan 2011 - Jan 2010
 
-
-
 {{< fa lightbulb >}} Intellectual Property {data-icon=lightbulb}
 --------------------------------------------------------------------------------
 ::: aside
-
-
 Working at BillionToOne, Twist, and Zymergen on new product research requires confidentiality, but public evidence of accomplishments often comes in patent applications. The Legal teams know me well for being a helpful expert in the process.
-
-
 :::
-
-
 ### Liquid biopsy assay for genomic profiling of circulating tumor DNA
 
 BillionToOne, Inc.
@@ -264,7 +228,7 @@ Menlo Park, California
 
 Jan 2025
 
-- US Patent Application 19/033,133
+- US Patent [US20250239327A1](https://patents.google.com/patent/US20250239327A1/) / Patent Application 19/033,133: Liquid biopsy assay for genomic profiling of circulating tumor dna
 - Invention of tumor fraction estimation / in-tissue copy number estimation from aneuploidy signal in plasma
 
 
@@ -318,19 +282,11 @@ Mar 2021
 - [Worldwide Patent WO2021061694A1](https://patents.google.com/patent/WO2021061694A1/) / US 2021_0087586 A1
 - Demonstration of novel counterselection mechanism in non-model *Bacillus* microbe for genetic modification
 
-
-
 {{< fa book >}} Publications {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
-
-
 I communicate my results clearly, both in writing and in live presentations. I enjoy writing research papers, but my career has required more tech notes and app notes recently.
-
-
 :::
-
-
 
 ### Twist cfDNA Pan-Cancer Reference Standard v2 Technical Guidance
 
@@ -390,19 +346,11 @@ Dec 2017
 
 - Cherry, P., White, L., York, K., & Hesselberth, J.
 
-
-
 {{< fa chalkboard-teacher >}} Presentations & Talks {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ::: aside
-
-
 I give audience-centered presentations by adapting on the fly and over time to the venue and occasion. I like to *transfer knowledge* by giving methods/best practices talks whose slides can also serve as documentation.
-
-
 :::
-
-
 ### Tumor fraction estimation and tissue copy number inference using copy number signal from liquid biopsy
 
 [American Association for Cancer Researchers](
@@ -808,20 +756,12 @@ Conway, Arkansas
 
 Jan 2013
 
-
-
 :::{.no-print}
 {{< fa leaf >}} Trainees & Direct Reports {data-icon=leaf}
 --------------------------------------------------------------------------------
 :::: aside
-
-
 While I've not held a role with "manager" in the title, all Scientist positions I've held have involved formal report management responsibility. I take managing and mentoring seriously; I emphasize trust, learning, and growth with my reports.
-
-
 ::::
-
-
 ### Laura Herron, MS, University of California San Diego, Research Associate
 
 BillionToOne, Inc.
@@ -925,8 +865,5 @@ University of Colorado School of Medicine
 Aurora/Denver, Colorado
 
 Jan 2015
-
-
-
 
 :::

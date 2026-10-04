@@ -45,7 +45,7 @@
 
 <div class="disclaimer">
 
-Last updated on 2025-11-15.
+Last updated on 2026-10-03.
 
 Data-driven résumé made in R using Quarto.
 
@@ -79,29 +79,35 @@ where I can learn from my peers and–in turn–teach others.
 
 </div>
 
+### Principal Scientist, Oncology
+
+BillionToOne, Inc.
+
+Menlo Park, California
+
+Current - Oct 2026
+
 ### Senior Scientist, Oncology
 
 BillionToOne, Inc.
 
 Menlo Park, California
 
-Current - Sep 2024
+Oct 2026 - Sep 2024
 
+- Tech lead and program manager for multi-quarter cfDNA genomics assay
+  expansion (Select v3); led the launch and CAP/CLIA validation of
+  Northstar Select Pharmacogenomics (PGx) in under two months
 - Implemented department-wide copy number database using
   extract-transform-load (ETL) procedure on production data
 - Ideated, coded, and validated
-  [patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#liquid-biopsy-assay-for-genomic-profiling-of-circulating-tumor-dna)
+  [patented](https://pcherry.io/Patrick-Cherry-cv.html#liquid-biopsy-assay-for-genomic-profiling-of-circulating-tumor-dna)
   method for tumor fraction estimation from plasma aneuploidy data using
   Gaussian mixture models, custom model selection metric, and custom
   consensus logic
-- Solved DNA variant detection sensitivity issue by designing and
-  implementing a multiplexed amplicon NGS assay with public data sets
-  and internal database of variant data
-- Productionized RNA-seq by writing a custom Nextflow pipeline for
-  analysis and automated quality control reporting.
 - Answered business and product design questions from leadership about
   un-met customer need with internal reports on Notion written in
-  reproducible coding notebooks using Python and R in a HIPAA-manner
+  reproducible coding notebooks using Python and R in a HIPAA-compliant
   environment
 - As hiring manager, recruited and hired four Research Associates;
   managed the Statistics interview
@@ -117,11 +123,11 @@ Apr 2024 - Dec 2021
 - Invented and introduced multiple new products to market, yielding
   \$1M+ in new revenue as *Tech Lead*, including: *Pan-cancer cfDNA* (v1
   & v2)
-  ([patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#libraries-for-mutational-analysis)),
+  ([patented](https://pcherry.io/Patrick-Cherry-cv.html#libraries-for-mutational-analysis)),
   *CNV Controls*, *RNA Fusion Controls*, RNA-seq, and [patented adapter
-  removal](https://pdcherry.github.io/Patrick-Cherry-cv.html#methylation-mediated-adapter-removal-on-nucleic-acid-sequences)
+  removal](https://pcherry.io/Patrick-Cherry-cv.html#methylation-mediated-adapter-removal-on-nucleic-acid-sequences)
 - Answered feasibility questions with [Design of
-  Experiment](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html)
+  Experiment](https://pcherry.io/posts/2024_04_05-DoE_design_of_experiment.html)
   principles and data analysis using `R` and `Python`.
 - Wrote, documented, and maintained production QC pipelines for
   sub-components and finished good QC; trained end-users in
@@ -141,7 +147,7 @@ Emeryville, California
 Jan 2021 - Apr 2019
 
 - Boosted pan-project NGS genotyping success by 45% using [Design of
-  Experiment](https://pdcherry.github.io/posts/2024_04_05-DoE_design_of_experiment.html)
+  Experiment](https://pcherry.io/posts/2024_04_05-DoE_design_of_experiment.html)
   and Estimated Marginal Means modeling for causal inference; Guided
   demanding and diverse internal customers on complex NGS experiments
 - Built and disseminated reproducible statistical templates in
@@ -149,7 +155,7 @@ Jan 2021 - Apr 2019
 - Rendered strain build and plasmid build reports from LIMS `SQL`
   database in `MariaDB` and R / `ggplot2`
 - Designed, built, and demonstrated a
-  [patented](https://pdcherry.github.io/Patrick-Cherry-cv.html#method-for-counterselection-in-microorganisms)
+  [patented](https://pcherry.io/Patrick-Cherry-cv.html#method-for-counterselection-in-microorganisms)
   counterselectable marker for the non-model microbe *Bacillus subtlis*
 
 ##  Education
@@ -233,7 +239,10 @@ Menlo Park, California
 
 Jan 2025
 
-- US Patent Application 19/033,133
+- US Patent
+  [US20250239327A1](https://patents.google.com/patent/US20250239327A1/)
+  / Patent Application 19/033,133: Liquid biopsy assay for genomic
+  profiling of circulating tumor dna
 - Invention of tumor fraction estimation / in-tissue copy number
   estimation from aneuploidy signal in plasma
 
