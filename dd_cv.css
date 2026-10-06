@@ -29,6 +29,11 @@ h3 {
   color: #000;
 }
 
+/* un-do the all caps of titles of sections */
+h1, h2 {
+	text-transform: none;
+}
+
 #title > p {
   text-align: justify;
 }

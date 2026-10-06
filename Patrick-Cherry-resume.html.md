@@ -61,9 +61,9 @@ execute:
 ::::: {.side-contact-list}
 Contact {#contact}
 --------------------------------------------------------------------------------
- - {{< fa envelope >}}&nbsp;patrick [at] pcherry dot io
+ - {{< fa envelope >}}&nbsp;patrick [at] pcherry [dot] org
  - {{< fa phone >}}&nbsp;upon request
- - {{< fa suitcase >}}&nbsp;Senior Scientist | Oncology
+ - {{< fa suitcase >}}&nbsp;Principal Scientist | Oncology
  - {{< fa building >}}&nbsp;BillionToOne
  - {{< fa map >}}&nbsp;San Francisco, California
  - {{< fa globe-americas >}}&nbsp;[pcherry.io](https://pcherry.io)
@@ -73,7 +73,7 @@ Contact {#contact}
 
 :::::: {.disclaimer}
 
-Last updated on 2026-10-03.
+Last updated on 2026-10-05.
 
 Data-driven résumé made in R using Quarto.
 ::::::
@@ -351,16 +351,40 @@ Dec 2017
 ::: aside
 I give audience-centered presentations by adapting on the fly and over time to the venue and occasion. I like to *transfer knowledge* by giving methods/best practices talks whose slides can also serve as documentation.
 :::
+### Liquid biopsy to reveal colorectal cancer molecular subtype information from ctDNA epigenetics.
+
+[2026 ASCO Gastrointestinal Cancers Symposium](https://doi.org/10.1200/JCO.2026.44.2_suppl.238) ([Poster](https://cdn.prod.website-files.com/6877670a0b7155136106e587/69e2390042c90b635ca1c80e_NS_ASCO%20GI%202026_CRC%20Molecular%20subtype_poster.pdf))
+
+San Francisco, CA
+
+Jan 2026
+
+- Laura Herron, _Patrick Cherry_, Wen Zhou, April Choi, Vaia Florou, David Tsao
+
+
+
 ### Tumor fraction estimation and tissue copy number inference using copy number signal from liquid biopsy
 
 [American Association for Cancer Researchers](
-https://doi.org/10.1158/1538-7445.AM2025-4563)
+https://doi.org/10.1158/1538-7445.AM2025-4563) ([Poster](https://www.northstaronc.com/publications#:~:text=Tumor%20fraction%20estimation%20and%20tissue%20copy%20number%20inference%20using%20copy%20number%20signal%20from%20a%20liquid%20biopsy%20assay))
 
 Chicago, Illinois
 
 Apr 2025
 
-- Patrick Cherry, Wen Zhou, David Tsao
+- _Patrick Cherry_, Wen Zhou, David Tsao
+
+
+
+### Prevalence and Characterization of ESR1 Alterations Detected with an Ultra-Sensitive, Liquid-Only CGP Assay in a Large Breast Cancer Cohort
+
+[International Society of Liquid Biopsy Annual Congress](https://doi.org/10.1016/j.jlb.2025.100393) ([Poster](https://cdn.prod.website-files.com/6877670a0b7155136106e587/693796ef54fa683e19b3e451_Hong%20L%20et%20al.%20ESR1%20Poster_ISLB%202025_FINAL%20DRAFT.pdf))
+
+Orlando, Florida
+
+Nov 2025
+
+- Lenny Hong, Matthew G. Varga, _Patrick Cherry_, Ali Aboosaiedi, Jeff Gaudet, Tiffany Farmer, Atri Choksi, Jason J Lukas, Michael Castro,Gary Palmer
 
 
 
