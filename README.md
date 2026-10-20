@@ -38,14 +38,14 @@
 -  Principal Scientist \| Oncology
 -  BillionToOne
 -  San Francisco, California
--  [pcherry.io](https://pcherry.io)
+-  [pcherry.org](https://pcherry.org)
 -  [github.com/pdcherry](https://github.com/pdcherry)
 -  [linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
 -  United States Citizen
 
 <div class="disclaimer">
 
-Last updated on 2026-10-05.
+Last updated on 2026-10-19.
 
 Data-driven résumé made in R using Quarto.
 

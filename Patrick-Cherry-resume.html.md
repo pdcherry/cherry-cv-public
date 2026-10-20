@@ -66,14 +66,14 @@ Contact {#contact}
  - {{< fa suitcase >}}&nbsp;Principal Scientist | Oncology
  - {{< fa building >}}&nbsp;BillionToOne
  - {{< fa map >}}&nbsp;San Francisco, California
- - {{< fa globe-americas >}}&nbsp;[pcherry.io](https://pcherry.io)
+ - {{< fa globe-americas >}}&nbsp;[pcherry.org](https://pcherry.org)
  - {{< fa brands github >}}&nbsp;[github.com/pdcherry](https://github.com/pdcherry)
  - {{< fa brands linkedin >}}&nbsp;[linkedin.com/in/p-cherry](https://www.linkedin.com/in/p-cherry)
  - {{< fa id-card >}}&nbsp;United States Citizen
 
 :::::: {.disclaimer}
 
-Last updated on 2026-10-05.
+Last updated on 2026-10-19.
 
 Data-driven résumé made in R using Quarto.
 ::::::
